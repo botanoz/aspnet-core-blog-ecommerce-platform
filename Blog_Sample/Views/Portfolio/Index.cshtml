@@ -1,0 +1,20 @@
+﻿@model IEnumerable<DataLayer.Model.Portfolio>
+@{
+    ViewData["Title"] = "Portfolio";
+}
+<div class="container portfolio-grid-page">
+ 
+
+    <div class="row">
+        @foreach(var item in Model){
+        <div class="col-md-4 portfolio-card wow fadeInUp">
+            <div class="project-thumbnail-wrapper">
+                <img src="@(Url.Content(item.ProjectUrl))" alt="portffolio" class="project-thumbnail">
+            </div>
+              
+            <h5 class="project-name">username</h5>
+            <p class="project-category">@item.Description</p>
+        </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,309 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Setting";
+}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-target="generalSettings">General Settings</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-target="userSettings">User Settings</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-target="paymentSettings">Payment Settings</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-target="notificationSettings">Notification Settings</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-target="seoAnalyticsSettings">SEO and Analytics</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-target="integrations">Integrations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" data-target="backupRestore">Backup and Restore</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+
+                <!-- General Settings -->
+                <div id="generalSettings" class="settings-section card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title"><i class="fas fa-cogs"></i> General Settings</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="siteTitle">Site Title</label>
+                            <input type="text" class="form-control" id="siteTitle" placeholder="Enter site title">
+                        </div>
+                        <div class="form-group">
+                            <label for="siteLogo">Logo</label>
+                            <input type="file" class="form-control" id="siteLogo">
+                        </div>
+                        <div class="form-group">
+                            <label for="siteDescription">Site Description</label>
+                            <textarea class="form-control" id="siteDescription" rows="3" placeholder="Enter site description"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="siteLanguage">Site Language</label>
+                            <select class="form-control" id="siteLanguage">
+                                <option>English</option>
+                                <option>Spanish</option>
+                                <option>French</option>
+                                <option>German</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="timeZone">Time Zone</label>
+                            <select class="form-control" id="timeZone">
+                                <option>UTC-12:00</option>
+                                <option>UTC-11:00</option>
+                                <option>UTC-10:00</option>
+                                <option>UTC-09:00</option>
+                                <option>UTC-08:00</option>
+                                <option>UTC-07:00</option>
+                                <option>UTC-06:00</option>
+                                <option>UTC-05:00</option>
+                                <option>UTC-04:00</option>
+                                <option>UTC-03:00</option>
+                                <option>UTC-02:00</option>
+                                <option>UTC-01:00</option>
+                                <option>UTC+00:00</option>
+                                <option>UTC+01:00</option>
+                                <option>UTC+02:00</option>
+                                <option>UTC+03:00</option>
+                                <option>UTC+04:00</option>
+                                <option>UTC+05:00</option>
+                                <option>UTC+06:00</option>
+                                <option>UTC+07:00</option>
+                                <option>UTC+08:00</option>
+                                <option>UTC+09:00</option>
+                                <option>UTC+10:00</option>
+                                <option>UTC+11:00</option>
+                                <option>UTC+12:00</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-primary" id="saveGeneralSettings">Save General Settings</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- User Settings -->
+                <div id="userSettings" class="settings-section card card-info">
+                    <div class="card-header">
+                        <h3 class="card-title"><i class="fas fa-users-cog"></i> User Settings</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="defaultRole">Default User Role</label>
+                            <select class="form-control" id="defaultRole">
+                                <option>Viewer</option>
+                                <option>Editor</option>
+                                <option>Admin</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="passwordPolicy">Password Policy</label>
+                            <select class="form-control" id="passwordPolicy">
+                                <option>Weak</option>
+                                <option>Medium</option>
+                                <option>Strong</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sessionTimeout">Session Timeout (minutes)</label>
+                            <input type="number" class="form-control" id="sessionTimeout" value="30">
+                        </div>
+                        <div class="form-group">
+                            <label for="twoFactorAuth">Two-Factor Authentication</label>
+                            <select class="form-control" id="twoFactorAuth">
+                                <option>Enabled</option>
+                                <option>Disabled</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-info" id="saveUserSettings">Save User Settings</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Payment Settings -->
+                <div id="paymentSettings" class="settings-section card card-success">
+                    <div class="card-header">
+                        <h3 class="card-title"><i class="fas fa-credit-card"></i> Payment Settings</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="currency">Currency</label>
+                            <select class="form-control" id="currency">
+                                <option>USD</option>
+                                <option>EUR</option>
+                                <option>GBP</option>
+                                <option>TRY</option>
+                                <option>JPY</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="taxRates">Tax Rates</label>
+                            <input type="number" class="form-control" id="taxRates" placeholder="Enter tax rates">
+                        </div>
+                        <div class="form-group">
+                            <label for="shippingOptions">Shipping Options</label>
+                            <textarea class="form-control" id="shippingOptions" rows="3" placeholder="Enter shipping options"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="paymentMethods">Payment Methods</label>
+                            <select class="form-control" id="paymentMethods" multiple>
+                                <option>Credit Card</option>
+                                <option>PayPal</option>
+                                <option>Bank Transfer</option>
+                                <option>Cryptocurrency</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-success" id="savePaymentSettings">Save Payment Settings</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Notification Settings -->
+                <div id="notificationSettings" class="settings-section card card-warning">
+                    <div class="card-header">
+                        <h3 class="card-title"><i class="fas fa-bell"></i> Notification Settings</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="emailServer">Email Server</label>
+                            <input type="text" class="form-control" id="emailServer" placeholder="Enter email server">
+                        </div>
+                        <div class="form-group">
+                            <label for="emailPort">Email Port</label>
+                            <input type="number" class="form-control" id="emailPort" placeholder="Enter email port">
+                        </div>
+                        <div class="form-group">
+                            <label for="smsProvider">SMS Provider</label>
+                            <input type="text" class="form-control" id="smsProvider" placeholder="Enter SMS provider">
+                        </div>
+                        <div class="form-group">
+                            <label for="notificationPreferences">Notification Preferences</label>
+                            <textarea class="form-control" id="notificationPreferences" rows="3" placeholder="Enter notification preferences"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-warning" id="saveNotificationSettings">Save Notification Settings</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SEO and Analytics Settings -->
+                <div id="seoAnalyticsSettings" class="settings-section card card-danger">
+                    <div class="card-header">
+                        <h3 class="card-title"><i class="fas fa-chart-line"></i> SEO and Analytics Settings</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="metaTags">Meta Tags</label>
+                            <textarea class="form-control" id="metaTags" rows="3" placeholder="Enter meta tags"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="googleAnalytics">Google Analytics</label>
+                            <input type="text" class="form-control" id="googleAnalytics" placeholder="Enter Google Analytics code">
+                        </div>
+                        <div class="form-group">
+                            <label for="seoSettings">SEO Settings</label>
+                            <textarea class="form-control" id="seoSettings" rows="3" placeholder="Enter SEO settings"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-danger" id="saveSEOSettings">Save SEO Settings</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Integrations -->
+                <div id="integrations" class="settings-section card card-secondary">
+                    <div class="card-header">
+                        <h3 class="card-title"><i class="fas fa-plug"></i> Integrations</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="socialMedia">Social Media Integrations</label>
+                            <textarea class="form-control" id="socialMedia" rows="3" placeholder="Enter social media accounts"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="thirdPartyServices">Third-Party Services</label>
+                            <textarea class="form-control" id="thirdPartyServices" rows="3" placeholder="Enter API keys and settings"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-secondary" id="saveIntegrations">Save Integrations</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backup and Restore -->
+                <div id="backupRestore" class="settings-section card card-dark">
+                    <div class="card-header">
+                        <h3 class="card-title"><i class="fas fa-database"></i> Backup and Restore</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="backupSettings">Backup Settings</label>
+                            <textarea class="form-control" id="backupSettings" rows="3" placeholder="Enter backup settings"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="restoreOptions">Restore Options</label>
+                            <textarea class="form-control" id="restoreOptions" rows="3" placeholder="Enter restore options"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-dark" id="saveBackupSettings">Save Backup Settings</button>
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-danger" id="createBackup">Create Backup</button>
+                            <button class="btn btn-secondary" id="restoreBackup">Restore Backup</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Select the specific settings sections and nav links
+        const sections = document.querySelectorAll('.settings-section');
+        const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+
+        // Hide all sections initially
+        sections.forEach(section => section.style.display = 'none');
+
+        // Show the first section by default
+        if (sections.length > 0) {
+            sections[0].style.display = 'block';
+        }
+
+        // Add click event listener to nav links
+        navLinks.forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                const targetId = this.getAttribute('data-target');
+                sections.forEach(section => section.style.display = 'none');
+                document.getElementById(targetId).style.display = 'block';
+            });
+        });
+    });
+</script>
+
+
+
+

@@ -1,0 +1,32 @@
+﻿@model IEnumerable<DataLayer.Model.Blog>
+@{
+    ViewData["Title"] = "Blog";
+}
+<div class="container blog-grid-page">
+    <h1 class="oleez-page-title wow fadeInUp">Blogs</h1>
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4">
+                <div class="blog-post-card wow fadeInUp">
+                <div class="blog-post-thumbnail-wrapper">
+                        <img src="@(Url.Content(item.ThumbnailPath))" alt="blog">
+                </div>
+                    <p class="blog-post-date">@item.CreatedDate.ToString("MMMM dd, yyyy")</p>
+                <h5 class="blog-post-title">@item.Title</h5>
+            </div>
+        </div>
+        }
+       
+    </div>
+    <div class="row">
+        <div class="col-12 pb-5 mb-5">
+            <nav class="oleez-pagination d-flex align-items-center justify-content-center wow fadeInUp">
+                <a href="#!" class="active">01</a>
+                <a href="#!">02</a>
+                <a href="#!">03</a>
+                <a href="#!" class="next">&rarr;</a>
+            </nav>
+        </div>
+    </div>
+</div>
