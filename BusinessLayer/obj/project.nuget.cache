@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+0PiVgP4siAynCQF1+bY52/xtNILN8yne4Xypd1gQ6hiZFgba38AWvts6escUP4sbmvgUkZ0emEFerPY6OrNPg==",
+  "dgSpecHash": "zgLX6mooP/K+6HxW1c2o2ZdA1PGXU+szTMbzqOb+1lXt97iak6mRoEvpVvoxgTe2Dbge+1k3w+TeD5CRIaPOGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\botan\\OneDrive\\Masaüstü\\course\\Blog_Sample\\BusinessLayer\\BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\botan\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\botan\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

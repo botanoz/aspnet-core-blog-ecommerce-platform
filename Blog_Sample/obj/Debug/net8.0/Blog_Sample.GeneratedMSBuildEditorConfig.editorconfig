@@ -9,111 +9,111 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Blog_Sample
 build_property.RootNamespace = Blog_Sample
-build_property.ProjectDir = C:\Users\botan\OneDrive\Masaüstü\course\Blog_Sample\Blog_Sample\
+build_property.ProjectDir = C:\Users\botan\OneDrive\Masaüstü\bloggithub\aspnet-core-blog-ecommerce-platform\Blog_Sample\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\botan\OneDrive\Masaüstü\course\Blog_Sample\Blog_Sample
+build_property.MSBuildProjectDirectory = C:\Users\botan\OneDrive\Masaüstü\bloggithub\aspnet-core-blog-ecommerce-platform\Blog_Sample
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Account/Login.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Admin/About.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Admin/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWJvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Admin/Blog.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Admin/Blog.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQmxvZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Admin/Index.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Admin/Portfolio.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Admin/Portfolio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUG9ydGZvbGlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Admin/Setting.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Admin/Setting.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2V0dGluZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Admin/Shop.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Admin/Shop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Admin/User.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Admin/User.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Blog/BlogPost.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Blog/BlogPost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xCbG9nUG9zdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Blog/Index.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Blog/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Home/About.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Home/Index.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Portfolio/Index.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Portfolio/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGZvbGlvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Portfolio/PortfolioPost.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Portfolio/PortfolioPost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGZvbGlvXFBvcnRmb2xpb1Bvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Shared/Components/UserInfo/Default.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Shared/Components/UserInfo/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlckluZm9cRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Shared/Error.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Shared/_AdminLayout.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Shared/_AdminSharedPartialDown.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Shared/_AdminSharedPartialDown.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pblNoYXJlZFBhcnRpYWxEb3duLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Shared/_AdminSharedPartialUp.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Shared/_AdminSharedPartialUp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pblNoYXJlZFBhcnRpYWxVcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Shared/_LoginLayout.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Shared/_LoginLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Shop/Index.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Shop/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hvcFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/_ViewImports.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/_ViewStart.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/botan/OneDrive/Masaüstü/course/Blog_Sample/Blog_Sample/Views/Shared/_Layout.cshtml]
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-z2i27txptj

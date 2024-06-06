@@ -1,5 +1,6 @@
 ﻿
 using BusinessLayer.Services.GenericServices;
+using BusinessLayer.Services.ViewModel;
 using DataLayer.Model;
 
 namespace BusinessLayer.Services.SipecificServices.Interface;
@@ -9,4 +10,6 @@ namespace BusinessLayer.Services.SipecificServices.Interface;
 /// </summary>
 public interface IAboutService : IGenericService<About>
 {
+    Task<AboutViewModel> GetAboutPageDataAsync();
+    Task<string> GetDescriptionByNameAsync(string name);
 }

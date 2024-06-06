@@ -410,11 +410,157 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser, Applicati
             .WithMany(u => u.Portfolios)
             .HasForeignKey(p => p.UserId);
 
-        // Product relationships
-        // (Configured through OrderDetail and CartDetail)
+            // Product relationships
+            // (Configured through OrderDetail and CartDetail)
+            //Seed data for Product entity
+            modelBuilder.Entity<Product>().HasData(
+                    new Product
+                    {
+                        Id=1,
+                        Name = "Flying Ninja",
+                        Description = "A high-quality flying ninja toy.",
+                        Price = 15.00m,
+                        ImageUrl = "~/images/Shop/shop@2x.jpg",
+                        CreatedDate = DateTime.UtcNow,
+                        IsActive = true,
+                        UpdatedDate = null,
+                        DeletedDate = null
+                    },
+                     new Product
+                     {
+                         Id = 2,
+                         Name = "Invisible Ninja",
+                         Description = "An invisible ninja toy with stealth mode.",
+                         Price = 20.00m,
+                         ImageUrl = "~/images/Shop/shop@2x.jpg",
+                         CreatedDate = DateTime.UtcNow,
+                         IsActive = true,
+                         UpdatedDate = null,
+                         DeletedDate = null
+                     },
+                     new Product
+                     {
+                         Id = 3,
+                         Name = "Speed Ninja",
+                         Description = "A fast ninja toy with lightning speed.",
+                         Price = 18.00m,
+                         ImageUrl = "~/images/Shop/shop@2x.jpg",
+                         CreatedDate = DateTime.UtcNow,
+                         IsActive = true,
+                         UpdatedDate = null,
+                         DeletedDate = null
+                     },
+                     new Product
+                     {
+                         Id = 4,
+                         Name = "Stealth Ninja",
+                         Description = "A stealthy ninja toy with night vision.",
+                         Price = 22.00m,
+                         ImageUrl = "~/images/Shop/shop@2x.jpg",
+                         CreatedDate = DateTime.UtcNow,
+                         IsActive = true,
+                         UpdatedDate = null,
+                         DeletedDate = null
+                     },
+                     new Product
+                     {
+                         Id = 5,
+                         Name = "Shadow Ninja",
+                         Description = "A shadow ninja toy that blends into the dark.",
+                         Price = 19.00m,
+                         ImageUrl = "~/images/Shop/shop@2x.jpg",
+                         CreatedDate = DateTime.UtcNow,
+                         IsActive = true,
+                         UpdatedDate = null,
+                         DeletedDate = null
+                     },
+                     new Product
+                     {
+                         Id = 6,
+                         Name = "Samurai Ninja",
+                         Description = "A samurai ninja toy with a katana.",
+                         Price = 25.00m,
+                         ImageUrl = "~/images/Shop/shop@2x.jpg",
+                         CreatedDate = DateTime.UtcNow,
+                         IsActive = true,
+                         UpdatedDate = null,
+                         DeletedDate = null
+                     },
+                     new Product
+                     {
+                         Id = 7,
+                         Name = "Rogue Ninja",
+                         Description = "A rogue ninja toy with dual blades.",
+                         Price = 23.00m,
+                         ImageUrl = "~/images/Shop/shop@2x.jpg",
+                         CreatedDate = DateTime.UtcNow,
+                         IsActive = true,
+                         UpdatedDate = null,
+                         DeletedDate = null
+                     },
+                     new Product
+                     {
+                         Id = 8,
+                         Name = "Mystic Ninja",
+                         Description = "A mystic ninja toy with magical powers.",
+                         Price = 28.00m,
+                         ImageUrl = "~/images/Shop/shop@2x.jpg",
+                         CreatedDate = DateTime.UtcNow,
+                         IsActive = true,
+                         UpdatedDate = null,
+                         DeletedDate = null
+                     },
+                     new Product
+                     {
+                         Id = 9,
+                         Name = "Warrior Ninja",
+                         Description = "A warrior ninja toy with armor.",
+                         Price = 30.00m,
+                         ImageUrl = "~/images/Shop/shop@2x.jpg",
+                         CreatedDate = DateTime.UtcNow,
+                         IsActive = true,
+                         UpdatedDate = null,
+                         DeletedDate = null
+                     }
+                );
 
-        // Setting relationships
-        // (No foreign keys needed)
-    }
+            // Setting relationships
+            // (No foreign keys needed)
+
+            //Seed data for About Entitity
+            modelBuilder.Entity<About>().HasData(
+                new About
+                {
+                    Id=1,
+                    Name="Header",
+                    Description= "A design and development agency based in London. We create digital products that make people’s lives easier.",
+                },
+                 new About
+                 {
+                     Id = 2,
+                     Name = "Img",
+                     Description = "~/images/About/about@2x.jpg",
+                 },
+                 new About
+                 {
+                     Id = 3,
+                     Name = "Story",
+                     Description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,",
+                 },
+                 new About
+                 {
+                     Id = 4,
+                     Name = "Mission",
+                     Description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,",
+                 },
+                 new About
+                 {
+                     Id = 5,
+                     Name = "Value",
+                     Description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,",
+                 }
+
+                );
+        }
 }
 }

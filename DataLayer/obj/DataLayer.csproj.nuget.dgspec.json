@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\botan\\OneDrive\\Masaüstü\\course\\Blog_Sample\\DataLayer\\DataLayer.csproj": {}
+    "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\DataLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\botan\\OneDrive\\Masaüstü\\course\\Blog_Sample\\DataLayer\\DataLayer.csproj": {
+    "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\botan\\OneDrive\\Masaüstü\\course\\Blog_Sample\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "C:\\Users\\botan\\OneDrive\\Masaüstü\\course\\Blog_Sample\\DataLayer\\DataLayer.csproj",
+        "projectPath": "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\botan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\botan\\OneDrive\\Masaüstü\\course\\Blog_Sample\\DataLayer\\obj\\",
+        "outputPath": "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\botan\\AppData\\Roaming\\NuGet\\NuGet.Config",

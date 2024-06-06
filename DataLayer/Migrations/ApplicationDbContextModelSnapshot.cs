@@ -54,6 +54,48 @@ namespace DataLayer.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Abouts");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4383),
+                            Description = "A design and development agency based in London. We create digital products that make people’s lives easier.",
+                            IsActive = true,
+                            Name = "Header"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4384),
+                            Description = "~/images/About/about@2x.jpg",
+                            IsActive = true,
+                            Name = "Img"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4385),
+                            Description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,",
+                            IsActive = true,
+                            Name = "Story"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4386),
+                            Description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,",
+                            IsActive = true,
+                            Name = "Mission"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4387),
+                            Description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,",
+                            IsActive = true,
+                            Name = "Value"
+                        });
                 });
 
             modelBuilder.Entity("DataLayer.Model.ApplicationRole", b =>
@@ -185,7 +227,7 @@ namespace DataLayer.Migrations
                         {
                             Id = "admin1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "93854b3f-fae4-4ce9-9f0c-531b8a1455de",
+                            ConcurrencyStamp = "b7f4463f-9be3-4ca8-9891-c420238d25e9",
                             Email = "admin@example.com",
                             EmailConfirmed = true,
                             FirstName = "Admin",
@@ -193,10 +235,10 @@ namespace DataLayer.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@EXAMPLE.COM",
                             NormalizedUserName = "ADMIN@EXAMPLE.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAED0vyv/xG5Td6g3VkYVlnXwa/GzeRMEZH84xHDEbjNQN3x5m7ITKNWqCSjZjx24b9Q==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEHkWILUQg4eLVIlJt2v5HpwwTm2aIEOgcxGK4ZTuA7y3jJ149grSN6EoU5E6uPFZOw==",
                             PhoneNumberConfirmed = false,
                             ProfilePicture = "~/dist/img/user2-160x160.jpg",
-                            SecurityStamp = "c76827b2-61bb-41a6-bc6d-b518ab0e4526",
+                            SecurityStamp = "1d62b8c1-4b70-4cf5-828b-c66be5d11e94",
                             TwoFactorEnabled = false,
                             UserName = "admin@example.com"
                         },
@@ -204,7 +246,7 @@ namespace DataLayer.Migrations
                         {
                             Id = "user1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "70cfcb55-9dfc-427d-9b27-b7cd4a16a33c",
+                            ConcurrencyStamp = "06958b51-4122-4975-a948-917ae6f96776",
                             Email = "user1@example.com",
                             EmailConfirmed = true,
                             FirstName = "John",
@@ -212,10 +254,10 @@ namespace DataLayer.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "USER1@EXAMPLE.COM",
                             NormalizedUserName = "USER1@EXAMPLE.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEFlMvJXZlZvJ25f3MTxZjDC+ziMzs0dcAySjZZXmFORvrEyxxgkf39uucSXAj0DMmg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECIli1fC67cDgHMsATkJ230pEfrutBzas9ewLIFNI8rf29jNWKfm3Vkxkoow0KneOg==",
                             PhoneNumberConfirmed = false,
                             ProfilePicture = "~/dist/img/user2-160x160.jpg",
-                            SecurityStamp = "884bf448-8b72-45e1-9a82-f9828eee6c42",
+                            SecurityStamp = "2c635e53-a289-4500-82a9-15fde356c7d0",
                             TwoFactorEnabled = false,
                             UserName = "user1@example.com"
                         },
@@ -223,7 +265,7 @@ namespace DataLayer.Migrations
                         {
                             Id = "user2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d08676f4-7826-43fd-8ee8-15421efab6ab",
+                            ConcurrencyStamp = "67c197e1-623f-4142-9fee-b15909e6f191",
                             Email = "user2@example.com",
                             EmailConfirmed = true,
                             FirstName = "Jane",
@@ -231,10 +273,10 @@ namespace DataLayer.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "USER2@EXAMPLE.COM",
                             NormalizedUserName = "USER2@EXAMPLE.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEGgWQ/oxojnouQT6KJX1CDHv4R/xmBYiTtwJ8OtRt0x696nOojCE3ZM+ATaMxqiFcA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAELd6ieCV4gEeb0drxEL1cSdQC4l7e/fjLEarew0i2eCX1RNaGBY/yltw7HrN+GEfOw==",
                             PhoneNumberConfirmed = false,
                             ProfilePicture = "~/dist/img/user2-160x160.jpg",
-                            SecurityStamp = "e15c60d4-deae-45ea-99be-e30fa183c169",
+                            SecurityStamp = "d815f00d-a809-47a8-85ee-ede285926a4d",
                             TwoFactorEnabled = false,
                             UserName = "user2@example.com"
                         },
@@ -242,7 +284,7 @@ namespace DataLayer.Migrations
                         {
                             Id = "user3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ff98d5b1-aeec-4f59-9e48-74eea9bda9dd",
+                            ConcurrencyStamp = "3ad7dcc9-9ec2-4e5b-845a-ff834126dfdd",
                             Email = "user3@example.com",
                             EmailConfirmed = true,
                             FirstName = "Alice",
@@ -250,10 +292,10 @@ namespace DataLayer.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "USER3@EXAMPLE.COM",
                             NormalizedUserName = "USER3@EXAMPLE.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEBlduhQKdUO4vmWpt15OP20HilNmrrlgzo7bTM0adChPF2/Hz2/aDUVTJFDotT5XWw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEB4VDkxHhO4uC6sv2fIkZSmnJsyT27ltxEC6Ys8z/+MRXKWcjVF80NFFyh5Rzh5EFw==",
                             PhoneNumberConfirmed = false,
                             ProfilePicture = "~/dist/img/user2-160x160.jpg",
-                            SecurityStamp = "614e1426-ac20-4f9d-af1c-782e7533e106",
+                            SecurityStamp = "61925cd2-b828-40f0-84f7-b28d3ddc97cb",
                             TwoFactorEnabled = false,
                             UserName = "user3@example.com"
                         },
@@ -261,7 +303,7 @@ namespace DataLayer.Migrations
                         {
                             Id = "user4",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "20d02dcc-4204-48fa-a9ac-a8fde4796352",
+                            ConcurrencyStamp = "7d7198dc-2149-4825-bece-830baf115f2f",
                             Email = "user4@example.com",
                             EmailConfirmed = true,
                             FirstName = "Bob",
@@ -269,10 +311,10 @@ namespace DataLayer.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "USER4@EXAMPLE.COM",
                             NormalizedUserName = "USER4@EXAMPLE.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAENxRR5cg9CrljMfB+Ckh3S/uz/Xsddq10jyAqozyauMPih+XZT2UaCQ4zovotUb2EA==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEArAQP9U16sgEVxSzu2UsydXNMhaI1YQhkjahZy1eJ5ktSyzeniAauleQNhvDpbY8A==",
                             PhoneNumberConfirmed = false,
                             ProfilePicture = "~/dist/img/user2-160x160.jpg",
-                            SecurityStamp = "526eebc5-4ab7-45b4-9cc3-26056d6817b0",
+                            SecurityStamp = "810e0b8e-9bf2-4a30-95b1-3908a5bc16de",
                             TwoFactorEnabled = false,
                             UserName = "user4@example.com"
                         });
@@ -897,6 +939,98 @@ namespace DataLayer.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4291),
+                            Description = "A high-quality flying ninja toy.",
+                            ImageUrl = "~/images/Shop/shop@2x.jpg",
+                            IsActive = true,
+                            Name = "Flying Ninja",
+                            Price = 15.00m
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4294),
+                            Description = "An invisible ninja toy with stealth mode.",
+                            ImageUrl = "~/images/Shop/shop@2x.jpg",
+                            IsActive = true,
+                            Name = "Invisible Ninja",
+                            Price = 20.00m
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4297),
+                            Description = "A fast ninja toy with lightning speed.",
+                            ImageUrl = "~/images/Shop/shop@2x.jpg",
+                            IsActive = true,
+                            Name = "Speed Ninja",
+                            Price = 18.00m
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4299),
+                            Description = "A stealthy ninja toy with night vision.",
+                            ImageUrl = "~/images/Shop/shop@2x.jpg",
+                            IsActive = true,
+                            Name = "Stealth Ninja",
+                            Price = 22.00m
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4301),
+                            Description = "A shadow ninja toy that blends into the dark.",
+                            ImageUrl = "~/images/Shop/shop@2x.jpg",
+                            IsActive = true,
+                            Name = "Shadow Ninja",
+                            Price = 19.00m
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4308),
+                            Description = "A samurai ninja toy with a katana.",
+                            ImageUrl = "~/images/Shop/shop@2x.jpg",
+                            IsActive = true,
+                            Name = "Samurai Ninja",
+                            Price = 25.00m
+                        },
+                        new
+                        {
+                            Id = 7,
+                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4310),
+                            Description = "A rogue ninja toy with dual blades.",
+                            ImageUrl = "~/images/Shop/shop@2x.jpg",
+                            IsActive = true,
+                            Name = "Rogue Ninja",
+                            Price = 23.00m
+                        },
+                        new
+                        {
+                            Id = 8,
+                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4313),
+                            Description = "A mystic ninja toy with magical powers.",
+                            ImageUrl = "~/images/Shop/shop@2x.jpg",
+                            IsActive = true,
+                            Name = "Mystic Ninja",
+                            Price = 28.00m
+                        },
+                        new
+                        {
+                            Id = 9,
+                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4315),
+                            Description = "A warrior ninja toy with armor.",
+                            ImageUrl = "~/images/Shop/shop@2x.jpg",
+                            IsActive = true,
+                            Name = "Warrior Ninja",
+                            Price = 30.00m
+                        });
                 });
 
             modelBuilder.Entity("DataLayer.Model.Setting", b =>
