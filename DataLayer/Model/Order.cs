@@ -21,5 +21,17 @@ public class Order : BaseModel
     [Required]
     public decimal TotalAmount { get; set; }
 
+    public OrderStatus Status { get; set; } = OrderStatus.Pending;
     public ICollection<OrderDetail> OrderDetails { get; set; }
+}
+/// <summary>
+/// Enumeration representing the possible statuses of an order.
+/// </summary>
+public enum OrderStatus
+{
+    Pending,
+    Processing,
+    Shipped,
+    Delivered,
+    Canceled
 }

@@ -378,20 +378,38 @@ public class ApplicationDbContext : IdentityDbContext<ApplicationUser, Applicati
             .WithMany(p => p.CartDetails)
             .HasForeignKey(cd => cd.ProductId);
 
-        // ClientSay relationships
-        // (No foreign keys needed)
+            // ClientSay relationships
+            // (No foreign keys needed)
 
-        // News relationships
-        // (No foreign keys needed)
+            // News relationships
+            // (No foreign keys needed)
 
-        // Order relationships
-        modelBuilder.Entity<Order>()
-            .HasOne(o => o.User)
-            .WithMany(u => u.Orders)
-            .HasForeignKey(o => o.UserId);
+            // Order entity configuration
+            modelBuilder.Entity<Order>(entity =>
+            {
+                entity.HasKey(e => e.Id);
 
-        // OrderDetail relationships
-        modelBuilder.Entity<OrderDetail>()
+                entity.Property(e => e.UserId)
+                      .IsRequired();
+
+                entity.Property(e => e.OrderDate)
+                      .IsRequired();
+
+                entity.Property(e => e.TotalAmount)
+                      .IsRequired();
+
+                entity.Property(e => e.Status)
+                      .HasDefaultValue(OrderStatus.Pending)
+                      .IsRequired();
+
+                // Order relationships
+                entity.HasOne(o => o.User)
+                      .WithMany(u => u.Orders)
+                      .HasForeignKey(o => o.UserId);
+            });
+
+            // OrderDetail relationships
+            modelBuilder.Entity<OrderDetail>()
             .HasOne(od => od.Order)
             .WithMany(o => o.OrderDetails)
             .HasForeignKey(od => od.OrderId);

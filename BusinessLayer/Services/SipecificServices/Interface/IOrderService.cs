@@ -9,4 +9,6 @@ namespace BusinessLayer.Services.SipecificServices.Interface;
 /// </summary>
 public interface IOrderService : IGenericService<Order>
 {
+    Task<IEnumerable<Order>> GetAllPendingOrders();
+    Task<int> GetCountOrders(OrderStatus orderStatus);
 }

@@ -6,4 +6,5 @@ namespace DataLayer.Repository.SpecificRepository.Interface;
 
 public interface IOrderRepository : IGenericRepository<Order>
 {
+    Task<IEnumerable<Order>> GetAllPendingOrders();
 }

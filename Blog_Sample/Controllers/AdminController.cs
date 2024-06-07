@@ -1,5 +1,6 @@
 ﻿using BusinessLayer.Services.SipecificServices.Interface;
 using BusinessLayer.Services.UnitOfWork;
+using BusinessLayer.Services.ViewModel;
 using DataLayer.Model;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -15,18 +16,34 @@ namespace Blog_Sample.Controllers
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IOrderService _orderService;
 
         public AdminController(
             UserManager<ApplicationUser> userManager,
-            IUnitOfWork unitOfWork)
+            IUnitOfWork unitOfWork,IOrderService orderService)
         {
             _userManager = userManager;
             _unitOfWork = unitOfWork;
+            _orderService=orderService;
+
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+           
+            AdminDashboardViewModel viewModel = new AdminDashboardViewModel()
+            {
+                TotalOrders= (await _unitOfWork.Orders.GetAllAsync()).Count(),
+                TotalProducts = (await _unitOfWork.Products.GetAllAsync()).Count(),
+                TotalBlogs = (await _unitOfWork.Blogs.GetAllAsync()).Count(),
+                TotalPortfolios = (await _unitOfWork.Portfolios.GetAllAsync()).Count(),
+                PendingOrders= await _orderService.GetCountOrders(OrderStatus.Pending),
+                TotalUsers= (await _unitOfWork.Users.GetAllAsync() ).Count(),
+                TodayVisitors=0
+                
+              
+            };
+            return View(viewModel);
         }
 
         public async Task<IActionResult> Portfolio()

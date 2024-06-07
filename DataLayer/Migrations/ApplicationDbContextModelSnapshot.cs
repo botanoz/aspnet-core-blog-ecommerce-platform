@@ -59,7 +59,7 @@ namespace DataLayer.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4383),
+                            CreatedDate = new DateTime(2024, 6, 7, 11, 29, 32, 289, DateTimeKind.Utc).AddTicks(7939),
                             Description = "A design and development agency based in London. We create digital products that make people’s lives easier.",
                             IsActive = true,
                             Name = "Header"
@@ -67,7 +67,7 @@ namespace DataLayer.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4384),
+                            CreatedDate = new DateTime(2024, 6, 7, 11, 29, 32, 289, DateTimeKind.Utc).AddTicks(7940),
                             Description = "~/images/About/about@2x.jpg",
                             IsActive = true,
                             Name = "Img"
@@ -75,7 +75,7 @@ namespace DataLayer.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4385),
+                            CreatedDate = new DateTime(2024, 6, 7, 11, 29, 32, 289, DateTimeKind.Utc).AddTicks(7942),
                             Description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,",
                             IsActive = true,
                             Name = "Story"
@@ -83,7 +83,7 @@ namespace DataLayer.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4386),
+                            CreatedDate = new DateTime(2024, 6, 7, 11, 29, 32, 289, DateTimeKind.Utc).AddTicks(7943),
                             Description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,",
                             IsActive = true,
                             Name = "Mission"
@@ -91,7 +91,7 @@ namespace DataLayer.Migrations
                         new
                         {
                             Id = 5,
-                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4387),
+                            CreatedDate = new DateTime(2024, 6, 7, 11, 29, 32, 289, DateTimeKind.Utc).AddTicks(7944),
                             Description = "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,",
                             IsActive = true,
                             Name = "Value"
@@ -227,7 +227,7 @@ namespace DataLayer.Migrations
                         {
                             Id = "admin1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "b7f4463f-9be3-4ca8-9891-c420238d25e9",
+                            ConcurrencyStamp = "03ed20eb-4666-4d60-9fc4-c4ac7055a53d",
                             Email = "admin@example.com",
                             EmailConfirmed = true,
                             FirstName = "Admin",
@@ -235,10 +235,10 @@ namespace DataLayer.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@EXAMPLE.COM",
                             NormalizedUserName = "ADMIN@EXAMPLE.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEHkWILUQg4eLVIlJt2v5HpwwTm2aIEOgcxGK4ZTuA7y3jJ149grSN6EoU5E6uPFZOw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAECDqIaXTcem8ig1YZzjjLipVlzp5pf+KKTwPyxAFJU1vQNHNEzCEQMh9rmJzE6JqvA==",
                             PhoneNumberConfirmed = false,
                             ProfilePicture = "~/dist/img/user2-160x160.jpg",
-                            SecurityStamp = "1d62b8c1-4b70-4cf5-828b-c66be5d11e94",
+                            SecurityStamp = "4ad4c0e9-fc7e-4dd5-bd95-5d5d04c39c9f",
                             TwoFactorEnabled = false,
                             UserName = "admin@example.com"
                         },
@@ -246,7 +246,7 @@ namespace DataLayer.Migrations
                         {
                             Id = "user1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "06958b51-4122-4975-a948-917ae6f96776",
+                            ConcurrencyStamp = "b547cd55-023a-4ecf-9f31-012cb30663d6",
                             Email = "user1@example.com",
                             EmailConfirmed = true,
                             FirstName = "John",
@@ -254,10 +254,10 @@ namespace DataLayer.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "USER1@EXAMPLE.COM",
                             NormalizedUserName = "USER1@EXAMPLE.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAECIli1fC67cDgHMsATkJ230pEfrutBzas9ewLIFNI8rf29jNWKfm3Vkxkoow0KneOg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEAPcV4ABN9pX8t10AAwfvyo6yKPG2B1vVWj2+6sKbDfsCGl51f+4Fo8nYtBanpeOBg==",
                             PhoneNumberConfirmed = false,
                             ProfilePicture = "~/dist/img/user2-160x160.jpg",
-                            SecurityStamp = "2c635e53-a289-4500-82a9-15fde356c7d0",
+                            SecurityStamp = "ad71d9a7-d7be-43ed-8f59-d564b0bc973a",
                             TwoFactorEnabled = false,
                             UserName = "user1@example.com"
                         },
@@ -265,7 +265,7 @@ namespace DataLayer.Migrations
                         {
                             Id = "user2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "67c197e1-623f-4142-9fee-b15909e6f191",
+                            ConcurrencyStamp = "9722a0dd-b7c0-4aa6-a3c6-da7f1a4af60a",
                             Email = "user2@example.com",
                             EmailConfirmed = true,
                             FirstName = "Jane",
@@ -273,10 +273,10 @@ namespace DataLayer.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "USER2@EXAMPLE.COM",
                             NormalizedUserName = "USER2@EXAMPLE.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAELd6ieCV4gEeb0drxEL1cSdQC4l7e/fjLEarew0i2eCX1RNaGBY/yltw7HrN+GEfOw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEPyI6LhaUbiZG2bAPGoMHvcfbCw40mSXLKu0ioPiUfFbudV9L3vhkILYAE6SRBtpTw==",
                             PhoneNumberConfirmed = false,
                             ProfilePicture = "~/dist/img/user2-160x160.jpg",
-                            SecurityStamp = "d815f00d-a809-47a8-85ee-ede285926a4d",
+                            SecurityStamp = "4c82bf39-bf90-416e-9695-29e703fe6bdd",
                             TwoFactorEnabled = false,
                             UserName = "user2@example.com"
                         },
@@ -284,7 +284,7 @@ namespace DataLayer.Migrations
                         {
                             Id = "user3",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "3ad7dcc9-9ec2-4e5b-845a-ff834126dfdd",
+                            ConcurrencyStamp = "f7b471ca-08b7-4583-978c-48be2c986ca0",
                             Email = "user3@example.com",
                             EmailConfirmed = true,
                             FirstName = "Alice",
@@ -292,10 +292,10 @@ namespace DataLayer.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "USER3@EXAMPLE.COM",
                             NormalizedUserName = "USER3@EXAMPLE.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEB4VDkxHhO4uC6sv2fIkZSmnJsyT27ltxEC6Ys8z/+MRXKWcjVF80NFFyh5Rzh5EFw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGRnED98RT7KN1dNwKxkupRZb5jmFMvVxg10OJTaghpW6J4jAJ84tN6WPUSmS1u+1Q==",
                             PhoneNumberConfirmed = false,
                             ProfilePicture = "~/dist/img/user2-160x160.jpg",
-                            SecurityStamp = "61925cd2-b828-40f0-84f7-b28d3ddc97cb",
+                            SecurityStamp = "8d6ed482-2036-408f-bdbc-cd11446d18db",
                             TwoFactorEnabled = false,
                             UserName = "user3@example.com"
                         },
@@ -303,7 +303,7 @@ namespace DataLayer.Migrations
                         {
                             Id = "user4",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "7d7198dc-2149-4825-bece-830baf115f2f",
+                            ConcurrencyStamp = "4a4f9c84-5e46-4ce4-acd4-c6f6954b97b3",
                             Email = "user4@example.com",
                             EmailConfirmed = true,
                             FirstName = "Bob",
@@ -311,10 +311,10 @@ namespace DataLayer.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "USER4@EXAMPLE.COM",
                             NormalizedUserName = "USER4@EXAMPLE.COM",
-                            PasswordHash = "AQAAAAIAAYagAAAAEArAQP9U16sgEVxSzu2UsydXNMhaI1YQhkjahZy1eJ5ktSyzeniAauleQNhvDpbY8A==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEE1gbOM0NgbJvrT1CHA9rLm5kkpXNfn8NMgpAG1aRGhEHBQeXGyHSj2fSvG2T4S7JQ==",
                             PhoneNumberConfirmed = false,
                             ProfilePicture = "~/dist/img/user2-160x160.jpg",
-                            SecurityStamp = "810e0b8e-9bf2-4a30-95b1-3908a5bc16de",
+                            SecurityStamp = "423d01af-57ff-4386-a231-8227a0569160",
                             TwoFactorEnabled = false,
                             UserName = "user4@example.com"
                         });
@@ -650,6 +650,11 @@ namespace DataLayer.Migrations
                     b.Property<DateTime>("OrderDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("Status")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasDefaultValue(0);
+
                     b.Property<decimal>("TotalAmount")
                         .HasColumnType("decimal(18,2)");
 
@@ -944,7 +949,7 @@ namespace DataLayer.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4291),
+                            CreatedDate = new DateTime(2024, 6, 7, 11, 29, 32, 289, DateTimeKind.Utc).AddTicks(7799),
                             Description = "A high-quality flying ninja toy.",
                             ImageUrl = "~/images/Shop/shop@2x.jpg",
                             IsActive = true,
@@ -954,7 +959,7 @@ namespace DataLayer.Migrations
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4294),
+                            CreatedDate = new DateTime(2024, 6, 7, 11, 29, 32, 289, DateTimeKind.Utc).AddTicks(7803),
                             Description = "An invisible ninja toy with stealth mode.",
                             ImageUrl = "~/images/Shop/shop@2x.jpg",
                             IsActive = true,
@@ -964,7 +969,7 @@ namespace DataLayer.Migrations
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4297),
+                            CreatedDate = new DateTime(2024, 6, 7, 11, 29, 32, 289, DateTimeKind.Utc).AddTicks(7805),
                             Description = "A fast ninja toy with lightning speed.",
                             ImageUrl = "~/images/Shop/shop@2x.jpg",
                             IsActive = true,
@@ -974,7 +979,7 @@ namespace DataLayer.Migrations
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4299),
+                            CreatedDate = new DateTime(2024, 6, 7, 11, 29, 32, 289, DateTimeKind.Utc).AddTicks(7808),
                             Description = "A stealthy ninja toy with night vision.",
                             ImageUrl = "~/images/Shop/shop@2x.jpg",
                             IsActive = true,
@@ -984,7 +989,7 @@ namespace DataLayer.Migrations
                         new
                         {
                             Id = 5,
-                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4301),
+                            CreatedDate = new DateTime(2024, 6, 7, 11, 29, 32, 289, DateTimeKind.Utc).AddTicks(7811),
                             Description = "A shadow ninja toy that blends into the dark.",
                             ImageUrl = "~/images/Shop/shop@2x.jpg",
                             IsActive = true,
@@ -994,7 +999,7 @@ namespace DataLayer.Migrations
                         new
                         {
                             Id = 6,
-                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4308),
+                            CreatedDate = new DateTime(2024, 6, 7, 11, 29, 32, 289, DateTimeKind.Utc).AddTicks(7819),
                             Description = "A samurai ninja toy with a katana.",
                             ImageUrl = "~/images/Shop/shop@2x.jpg",
                             IsActive = true,
@@ -1004,7 +1009,7 @@ namespace DataLayer.Migrations
                         new
                         {
                             Id = 7,
-                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4310),
+                            CreatedDate = new DateTime(2024, 6, 7, 11, 29, 32, 289, DateTimeKind.Utc).AddTicks(7822),
                             Description = "A rogue ninja toy with dual blades.",
                             ImageUrl = "~/images/Shop/shop@2x.jpg",
                             IsActive = true,
@@ -1014,7 +1019,7 @@ namespace DataLayer.Migrations
                         new
                         {
                             Id = 8,
-                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4313),
+                            CreatedDate = new DateTime(2024, 6, 7, 11, 29, 32, 289, DateTimeKind.Utc).AddTicks(7825),
                             Description = "A mystic ninja toy with magical powers.",
                             ImageUrl = "~/images/Shop/shop@2x.jpg",
                             IsActive = true,
@@ -1024,7 +1029,7 @@ namespace DataLayer.Migrations
                         new
                         {
                             Id = 9,
-                            CreatedDate = new DateTime(2024, 6, 6, 11, 54, 53, 271, DateTimeKind.Utc).AddTicks(4315),
+                            CreatedDate = new DateTime(2024, 6, 7, 11, 29, 32, 289, DateTimeKind.Utc).AddTicks(7828),
                             Description = "A warrior ninja toy with armor.",
                             ImageUrl = "~/images/Shop/shop@2x.jpg",
                             IsActive = true,

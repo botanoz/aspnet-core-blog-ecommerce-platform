@@ -3,7 +3,6 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
     ViewData["Title"] = "Blog";
     ViewData["ButtonName"] = "Add New Blog";
-    ViewData["Reads"] = "Reads";
     ViewData["TableName"] = "Blog Name";
 
 }
@@ -13,9 +12,16 @@
     <tr>
         <td>@blog.Id</td>
         <td>@blog.Title</td>
-        <td>@blog.CreatedDate</td>
-        <td class="project_progress">@blog.Description</td>
-        <td class="project-state">username</td>
+        <td>@blog.CreatedDate.ToString("MMMM dd, yyyy")</td>      
+        <td>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <img alt="Avatar" class="table-avatar" src="~/dist/img/avatar.png">
+                </li>
+                <li class="list-inline-item">
+                    <a>UserName</a>
+                </li>
+        </td>
         <td class="project-actions text-right">
             <a class="btn btn-primary btn-sm" href="@Url.Action("View", "Admin", new { id = blog.Id })">
                 <i class="fas fa-folder">
