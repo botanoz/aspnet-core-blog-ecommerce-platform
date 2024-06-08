@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Services.GenericServices;
+using BusinessLayer.Services.ViewModel;
 using DataLayer.Model;
 
 namespace BusinessLayer.Services.SipecificServices.Interface;
@@ -9,4 +10,5 @@ namespace BusinessLayer.Services.SipecificServices.Interface;
 public interface IBlogService : IGenericService<Blog>
 {
     Task<Blog> GetBlogByTitleAsync(string title);
+    Task<IEnumerable<BlogViewModel>> GetBlogDataListAsync();
 }

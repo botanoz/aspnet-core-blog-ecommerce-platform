@@ -17,15 +17,16 @@ namespace Blog_Sample.Controllers
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly IUnitOfWork _unitOfWork;
         private readonly IOrderService _orderService;
+        private readonly IBlogService _blogService;
 
         public AdminController(
             UserManager<ApplicationUser> userManager,
-            IUnitOfWork unitOfWork,IOrderService orderService)
+            IUnitOfWork unitOfWork,IOrderService orderService, IBlogService blogService)
         {
             _userManager = userManager;
             _unitOfWork = unitOfWork;
-            _orderService=orderService;
-
+            _orderService = orderService;
+            _blogService = blogService;
         }
 
         public async Task<IActionResult> Index()
@@ -60,7 +61,7 @@ namespace Blog_Sample.Controllers
 
         public async Task<IActionResult> Blog()
         {
-            var blogs = await _unitOfWork.Blogs.GetAllAsync();
+            var blogs = await _blogService.GetBlogDataListAsync();
             return View(blogs);
         }
 
