@@ -1,33 +1,69 @@
-﻿@Model 
+﻿@model IEnumerable<DataLayer.Model.Product>
 @{
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
     ViewData["Title"] = "Shop";
-    ViewData["ButtonName"] = "Add New Product";
-    ViewData["Reads"] = "Views";
-    ViewData["TableName"] = "Product Name";
 }
 
-@Html.Partial("_AdminSharedPartialUp")
+<section class="content">
+    <!-- Default box -->
+    <div class="card">
+        <div class="card-header">
+            <div class="card-tools">
+                <button type="button" class="btn btn-outline-primary">
+                    Add New Product
+                </button>
+            </div>
+        </div>
+        <div class="card-body p-0">
+            <table class="table table-striped projects">
+                <thead>
+                    <tr>
+                        <th style="width: 1%">
+                            #
+                        </th>
+                        <th style="width: 20%">
+                           Image
+                        </th>
+                        <th style="width: 30%">
+                           Name
+                        </th>
+                        <th style="width: 8%" class="text-center">
+                            Price
+                        </th>
+                        <th style="width: 8%" class="text-center">
+                            Is Active?
+                        </th>
+                       
+                        <th style="width: 20%">
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
 @foreach (var product in Model)
 {
-    <tr>
-        <td>@product.ID</td>
-        <td>@product.ProductName</td>
-        <td>@product.AddDate.ToString("yyyy-MM-dd")</td>
-        <td class="project_progress">@product.Views</td>
-        <td class="project-state">@product.Status</td>
+    var buttonClass = product.IsActive ? "btn-success" : "btn-secondary";
+    <tr>      
+        <td>@product.Id</td>
+        <td><img alt="Avatar" class="table-avatar" src="@(Url.Content(product.ImageUrl))"></td>
+        <td>@product.Name</td>
+        <td class="project_progress">@product.Price $</td>
+        <td class="project-state">
+            <button class="btn @buttonClass rounded-circle" style="width: 50px; height: 50px; margin: 5px;">
+                <i class="fa fa-check"></i>
+            </button>
+        </td>
         <td class="project-actions text-right">
-            <a class="btn btn-primary btn-sm" href="@Url.Action("View", "Admin", new { id = product.ID })">
+            <a class="btn btn-primary btn-sm" href="@Url.Action("View", "Admin", new { id = product.Id })">
                 <i class="fas fa-folder">
                 </i>
                 View
             </a>
-            <a class="btn btn-info btn-sm" href="@Url.Action("Edit", "Admin", new { id = product.ID })">
+            <a class="btn btn-info btn-sm" href="@Url.Action("Edit", "Admin", new { id = product.Id })">
                 <i class="fas fa-pencil-alt">
                 </i>
                 Edit
             </a>
-            <a class="btn btn-danger btn-sm" href="@Url.Action("Delete", "Admin", new { id = product.ID })">
+            <a class="btn btn-danger btn-sm" href="@Url.Action("Delete", "Admin", new { id = product.Id })">
                 <i class="fas fa-trash">
                 </i>
                 Delete
@@ -35,4 +71,10 @@
         </td>
     </tr>
 }
-@Html.Partial("_AdminSharedPartialDown")
+                </tbody>
+            </table>
+        </div>
+      
+    </div>
+ 
+</section>

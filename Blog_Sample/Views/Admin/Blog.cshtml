@@ -1,4 +1,4 @@
-﻿@model IEnumerable<BusinessLayer.Services.ViewModel.BlogViewModel>
+﻿@model IEnumerable<BusinessLayer.Services.ViewModel.ListViewModel>
 @{
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
     ViewData["Title"] = "Blog";
@@ -19,8 +19,9 @@
                     <img alt="Avatar" class="table-avatar" src="@(Url.Content(blog.UserPictureUrl))">
                 </li>
                 <li class="list-inline-item">
-                    <a>@blog.UserName</a>
+                    <a>@blog.FullName</a>
                 </li>
+                </ul>
         </td>
         <td class="project-actions text-right">
             <a class="btn btn-primary btn-sm" href="@Url.Action("View", "Admin", new { id = blog.Id })">

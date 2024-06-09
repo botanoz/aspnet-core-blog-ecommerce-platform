@@ -18,15 +18,17 @@ namespace Blog_Sample.Controllers
         private readonly IUnitOfWork _unitOfWork;
         private readonly IOrderService _orderService;
         private readonly IBlogService _blogService;
+        private readonly IPortfolioService _portfolioService;
 
         public AdminController(
             UserManager<ApplicationUser> userManager,
-            IUnitOfWork unitOfWork,IOrderService orderService, IBlogService blogService)
+            IUnitOfWork unitOfWork,IOrderService orderService, IBlogService blogService, IPortfolioService portfolioService)
         {
             _userManager = userManager;
             _unitOfWork = unitOfWork;
             _orderService = orderService;
             _blogService = blogService;
+            _portfolioService = portfolioService;
         }
 
         public async Task<IActionResult> Index()
@@ -49,7 +51,7 @@ namespace Blog_Sample.Controllers
 
         public async Task<IActionResult> Portfolio()
         {
-            var portfolios = await _unitOfWork.Portfolios.GetAllAsync();
+            var portfolios = await _portfolioService.GetPortfolioDataListAsync();
             return View(portfolios);
         }
 

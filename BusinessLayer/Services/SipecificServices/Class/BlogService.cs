@@ -29,7 +29,7 @@ public class BlogService : GenericService<Blog>, IBlogService
         return await _unitOfWork.Blogs.FirstOrDefaultAsync(b => b.Title == title);
     }
 
-    public async Task<IEnumerable<BlogViewModel>> GetBlogDataListAsync()
+    public async Task<IEnumerable<ListViewModel>> GetBlogDataListAsync()
     {
         var users = await _unitOfWork.Users.GetAllAsync();
         var blogs = await _unitOfWork.Blogs.GetAllAsync();
@@ -40,12 +40,12 @@ public class BlogService : GenericService<Blog>, IBlogService
             users,
             blog => blog.UserId,
             user => user.Id,
-            (blog, user) => new BlogViewModel
+            (blog, user) => new ListViewModel
             {
                 Id = blog.Id,
                 Title = blog.Title,
                 CreatedDate = blog.CreatedDate,
-                UserName = user.UserName,
+                FullName = user.FullName,
                 UserPictureUrl = !string.IsNullOrEmpty(user.ProfilePicture) ? user.ProfilePicture : "~/dist/img/avatar.png"
             }).ToList();
 

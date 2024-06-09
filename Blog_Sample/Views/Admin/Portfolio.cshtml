@@ -1,4 +1,4 @@
-﻿@model IEnumerable<DataLayer.Model.Portfolio>
+﻿@model IEnumerable<BusinessLayer.Services.ViewModel.ListViewModel>
 @{
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
     ViewData["Title"] = "Portfolio";
@@ -6,16 +6,54 @@
     ViewData["Reads"] = "Reads";
     ViewData["TableName"] = "Portfolio Name";
 }
+<section class="content">
+    <!-- Default box -->
+    <div class="card">
+        <div class="card-header">
+            <div class="card-tools">
+                <button type="button" class="btn btn-outline-primary">
+                    Add New Portfolio
+                </button>
+            </div>
+        </div>
+        <div class="card-body p-0">
+            <table class="table table-striped projects">
+                <thead>
+                    <tr>
+                        <th style="width: 1%">
+                            #
+                        </th>
+                        <th style="width: 20%">
+                            Name
+                        </th>
+                        <th style="width: 30%">
+                            Add Date
+                        </th>
+                        <th style="width: 8%" class="text-center">
+                            Author
+                        </th>
+                        <th style="width: 20%">
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
 
-@Html.Partial("_AdminSharedPartialUp")
-@foreach (var item in Model)
+                    @foreach (var item in Model)
 {
     <tr>
         <td>@item.Id</td>
-        <td>@item.Client</td>
-        <td>@item.CreatedDate.ToString()</td>
-        <td class="project_progress">@item.Description</td>
-        <td class="project-state">@item.Client</td>
+        <td>@item.Title</td>
+        <td>@item.CreatedDate.ToString("MMMM dd, yyyyy")</td>
+        <td>
+            <ul class="list-inline">
+                <li class="list-inline-item">
+                    <img alt="Avatar" class="table-avatar" src="@(Url.Content(item.UserPictureUrl))">
+                </li>
+                <li class="list-inline-item">
+                    <a>@item.FullName</a>
+                </li>
+            </ul>
+        </td>  
         <td class="project-actions text-right">
             <a class="btn btn-primary btn-sm" href="@Url.Action("View", "Admin", new { id = item.Id })">
                 <i class="fas fa-folder">

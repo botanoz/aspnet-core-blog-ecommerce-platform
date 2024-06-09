@@ -10,5 +10,5 @@ namespace BusinessLayer.Services.SipecificServices.Interface;
 public interface IBlogService : IGenericService<Blog>
 {
     Task<Blog> GetBlogByTitleAsync(string title);
-    Task<IEnumerable<BlogViewModel>> GetBlogDataListAsync();
+    Task<IEnumerable<ListViewModel>> GetBlogDataListAsync();
 }
