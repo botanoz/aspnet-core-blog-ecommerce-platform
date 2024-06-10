@@ -1,0 +1,84 @@
+﻿@model BusinessLayer.Services.ViewModel.BlogViewModel
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Edit Blog";
+   
+}
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title"><i class="fas fa-edit"></i> Edit Blog</h3>
+                    </div>
+                    @using (Html.BeginForm("EditBlog", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <div class="card-body">
+                            @Html.HiddenFor(m => m.Id)
+
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Date, htmlAttributes: new { @class = "control-label" })
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="far fa-calendar-alt"></i></span>
+                                    </div>
+                                    @Html.EditorFor(m => m.Date, new { htmlAttributes = new { @class = "form-control datetimepicker-input" } })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Thumbnail, "Thumbnail", htmlAttributes: new { @class = "control-label" })
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-upload"></i></span>
+                                    </div>
+                                    <input type="file" class="form-control" name="Thumbnail" />
+                                </div>
+                                @if (!string.IsNullOrEmpty(Model.ThumbnailPath))
+                                {
+                                    <img src="@(Url.Content(Model.ThumbnailPath))" alt="Thumbnail" class="img-thumbnail mt-2" style="max-width: 200px;" />
+                                }
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Title, htmlAttributes: new { @class = "control-label" })
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-heading"></i></span>
+                                    </div>
+                                    @Html.EditorFor(m => m.Title, new { htmlAttributes = new { @class = "form-control" } })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.Description, htmlAttributes: new { @class = "control-label" })
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-align-left"></i></span>
+                                    </div>
+                                    @Html.TextAreaFor(m => m.Description, new { @class = "form-control", @rows = 5 })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(m => m.UserId, htmlAttributes: new { @class = "control-label" })
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                    </div>
+                                    @Html.EditorFor(m => m.UserId, new { htmlAttributes = new { @class = "form-control" } })
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Save</button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

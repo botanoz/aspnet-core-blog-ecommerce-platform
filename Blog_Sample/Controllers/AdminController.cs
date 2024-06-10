@@ -85,6 +85,64 @@ namespace Blog_Sample.Controllers
             return View(users);
         }
 
+        public async Task<IActionResult> EditBlog(int id)
+        {
+            var blog = await _unitOfWork.Blogs.GetByIdAsync(id);
+            if (blog == null)
+            {
+                return NotFound();
+            }
+
+            var viewModel = new BlogViewModel
+            {
+                Id = blog.Id,
+                Date = blog.Date,
+                Title = blog.Title,
+                Description = blog.Description,
+                UserId = blog.UserId,
+                ThumbnailPath = blog.ThumbnailPath
+            };
+
+            return View(viewModel);
+        }
+        [HttpPost]
+        public async Task<IActionResult> EditBlog(BlogViewModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                var blog = await _unitOfWork.Blogs.GetByIdAsync(model.Id);
+                if (blog == null)
+                {
+                    return NotFound();
+                }
+
+                if (model.Thumbnail != null)
+                {
+                    var fileName = Path.GetFileNameWithoutExtension(model.Thumbnail.FileName);
+                    var extension = Path.GetExtension(model.Thumbnail.FileName);
+                    var newFileName = $"{fileName}_{DateTime.Now:yyyyMMddHHmmss}{extension}";
+                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/blogs", newFileName);
+
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+                        await model.Thumbnail.CopyToAsync(stream);
+                    }
+
+                    blog.ThumbnailPath = $"/images/blogs/{newFileName}";
+                }
+
+                blog.Date = model.Date;
+                blog.Title = model.Title;
+                blog.Description = model.Description;
+                blog.UserId = model.UserId;
+
+                _unitOfWork.Blogs.Update(blog);
+                await _unitOfWork.CompleteAsync();
+                return RedirectToAction(nameof(Blog));
+            }
+            return View(model);
+        }
+
         [HttpPost]
         public async Task<IActionResult> SaveSettings(IEnumerable<Setting> settings)
         {
