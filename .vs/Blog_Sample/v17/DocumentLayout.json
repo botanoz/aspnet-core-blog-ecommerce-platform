@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\views\\admin\\editblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\views\\admin\\editblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6762C53F-81EE-4658-9939-9359E7DFA6D0}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\botan\\onedrive\\masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\businesslayer\\services\\viewmodel\\blogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6762C53F-81EE-4658-9939-9359E7DFA6D0}|BusinessLayer\\BusinessLayer.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\businesslayer\\services\\viewmodel\\blogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6762C53F-81EE-4658-9939-9359E7DFA6D0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\viewmodel\\blogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|c:\\users\\botan\\onedrive\\masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\views\\admin\\editblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\views\\admin\\editblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|c:\\users\\botan\\onedrive\\masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|c:\\users\\botan\\onedrive\\masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\views\\admin\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\views\\admin\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|c:\\users\\botan\\onedrive\\masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\views\\admin\\portfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\views\\admin\\portfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\views\\admin\\portfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -158,7 +158,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -174,26 +174,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Blog_Sample\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Blog_Sample\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAkwIoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T10:10:38.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "BlogViewModel.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\BusinessLayer\\Services\\ViewModel\\BlogViewModel.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Services\\ViewModel\\BlogViewModel.cs",
               "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\BusinessLayer\\Services\\ViewModel\\BlogViewModel.cs",
               "RelativeToolTip": "BusinessLayer\\Services\\ViewModel\\BlogViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAtAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-10T16:07:07.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "EditBlog.cshtml",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\EditBlog.cshtml",
               "RelativeDocumentMoniker": "Blog_Sample\\Views\\Admin\\EditBlog.cshtml",
               "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\EditBlog.cshtml",
               "RelativeToolTip": "Blog_Sample\\Views\\Admin\\EditBlog.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAkwCoAAAAhAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwA0AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-10T15:50:52.495Z",
               "EditorCaption": ""
@@ -208,21 +221,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\SipecificServices\\Class\\PortfolioService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T19:43:07.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Blog_Sample\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Blog_Sample\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAkwIUAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T10:10:38.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T19:43:07.647Z"
             },
             {
               "$type": "Document",
@@ -234,8 +233,7 @@
               "RelativeToolTip": "Blog_Sample\\Views\\Admin\\Portfolio.cshtml",
               "ViewState": "AQIAABUAAAAAAAAAAAAAACkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T19:37:21.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T19:37:21.533Z"
             },
             {
               "$type": "Document",
@@ -247,8 +245,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\SipecificServices\\Interface\\IPortfolioService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T19:42:47.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T19:42:47.241Z"
             },
             {
               "$type": "Document",
@@ -260,8 +257,7 @@
               "RelativeToolTip": "Blog_Sample\\Views\\Admin\\Shop.cshtml",
               "ViewState": "AQIAABgAAAAAAAAAAAAAAC0AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T19:05:58.335Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T19:05:58.335Z"
             },
             {
               "$type": "Document",
@@ -273,8 +269,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\SipecificServices\\Class\\BlogService.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:08:08.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T14:08:08.748Z"
             },
             {
               "$type": "Document",
@@ -286,8 +281,7 @@
               "RelativeToolTip": "Blog_Sample\\Views\\Blog\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T08:52:56.296Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T08:52:56.296Z"
             },
             {
               "$type": "Document",
@@ -299,8 +293,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\SipecificServices\\Interface\\IBlogService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:05:41.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T14:05:41.691Z"
             },
             {
               "$type": "Document",
@@ -312,8 +305,7 @@
               "RelativeToolTip": "Blog_Sample\\Views\\Shared\\_AdminLayout.cshtml",
               "ViewState": "AQIAABMBAAAAAAAAAAAkwP0AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T11:48:42.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T11:48:42.481Z"
             },
             {
               "$type": "Document",
@@ -325,8 +317,7 @@
               "RelativeToolTip": "Blog_Sample\\Controllers\\ShopController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T09:20:05.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T09:20:05.128Z"
             },
             {
               "$type": "Document",
@@ -338,8 +329,7 @@
               "RelativeToolTip": "DataLayer\\Repository\\SpecificRepository\\Interface\\IOrderRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:04:36.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T11:04:36.672Z"
             },
             {
               "$type": "Document",
@@ -351,8 +341,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\SipecificServices\\Class\\OrderService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T10:34:54.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T10:34:54.35Z"
             },
             {
               "$type": "Document",
@@ -364,8 +353,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\SipecificServices\\Interface\\IOrderService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T10:32:01.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T10:32:01.927Z"
             },
             {
               "$type": "Document",
@@ -377,8 +365,7 @@
               "RelativeToolTip": "Blog_Sample\\Views\\Admin\\Index.cshtml",
               "ViewState": "AQIAAGAAAAAAAAAAAAAAAHQAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T11:21:01.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T11:21:01.782Z"
             },
             {
               "$type": "Document",
@@ -390,8 +377,7 @@
               "RelativeToolTip": "Blog_Sample\\wwwroot\\dist\\js\\pages\\dashboard.js",
               "ViewState": "AQIAAPEAAAAAAAAAAAAkwP0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-07T11:59:06.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T11:59:06.639Z"
             },
             {
               "$type": "Document",
@@ -403,8 +389,7 @@
               "RelativeToolTip": "Blog_Sample\\Views\\Portfolio\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T08:54:13.901Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T08:54:13.901Z"
             },
             {
               "$type": "Document",
@@ -416,8 +401,7 @@
               "RelativeToolTip": "DataLayer\\Repository\\SpecificRepository\\Class\\OrderRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:05:46.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T11:05:46.025Z"
             },
             {
               "$type": "Document",
@@ -429,8 +413,7 @@
               "RelativeToolTip": "DataLayer\\Migrations\\20240607112933_BlogSampleDbFourMig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:29:33.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T11:29:33.619Z"
             },
             {
               "$type": "Document",
@@ -442,8 +425,7 @@
               "RelativeToolTip": "DataLayer\\Model\\Order.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T10:12:10.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T10:12:10.614Z"
             },
             {
               "$type": "Document",
@@ -455,8 +437,7 @@
               "RelativeToolTip": "DataLayer\\Repository\\SpecificRepository\\Class\\BlogRepository.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T11:40:04.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T11:40:04.247Z"
             },
             {
               "$type": "Document",
@@ -468,8 +449,7 @@
               "RelativeToolTip": "DataLayer\\Entity\\ApplicationDbContext.cs",
               "ViewState": "AQIAAGoBAAAAAAAAAAAkwJgBAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T09:37:04.415Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T09:37:04.415Z"
             },
             {
               "$type": "Document",
@@ -481,8 +461,7 @@
               "RelativeToolTip": "DataLayer\\Repository\\SpecificRepository\\Interface\\IAboutRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T11:40:59.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T11:40:59.341Z"
             },
             {
               "$type": "Document",
@@ -494,8 +473,7 @@
               "RelativeToolTip": "Blog_Sample\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACgAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T10:00:58.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T10:00:58.059Z"
             },
             {
               "$type": "Document",
@@ -507,8 +485,7 @@
               "RelativeToolTip": "DataLayer\\Repository\\SpecificRepository\\Class\\AboutRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T11:25:10.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T11:25:10.792Z"
             },
             {
               "$type": "Document",
@@ -520,8 +497,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\ViewModel\\AboutViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T10:51:11.25Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T10:51:11.25Z"
             },
             {
               "$type": "Document",
@@ -533,8 +509,7 @@
               "RelativeToolTip": "Blog_Sample\\Views\\Shop\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T11:47:56.281Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T11:47:56.281Z"
             },
             {
               "$type": "Document",
@@ -546,8 +521,7 @@
               "RelativeToolTip": "DataLayer\\Migrations\\20240606115454_BlogSampleDbThirdMig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T11:54:54.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T11:54:54.471Z"
             },
             {
               "$type": "Document",
@@ -559,8 +533,7 @@
               "RelativeToolTip": "DataLayer\\Repository\\SpecificRepository\\Interface\\IBlogRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T11:24:55.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T11:24:55.477Z"
             },
             {
               "$type": "Document",
@@ -572,8 +545,7 @@
               "RelativeToolTip": "DataLayer\\Migrations\\20240606114440_BlogSampleDbSecondMig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T11:44:41.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T11:44:41.37Z"
             },
             {
               "$type": "Document",
@@ -585,8 +557,7 @@
               "RelativeToolTip": "Blog_Sample\\Views\\Home\\About.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T10:24:28.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T10:24:28.373Z"
             }
           ]
         }
@@ -619,8 +590,7 @@
               "RelativeToolTip": "BusinessLayer\\Services\\ViewModel\\ListViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:02:16.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T14:02:16.109Z"
             },
             {
               "$type": "Document",
@@ -630,7 +600,7 @@
               "RelativeDocumentMoniker": "Blog_Sample\\Views\\Admin\\Blog.cshtml",
               "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\Blog.cshtml",
               "RelativeToolTip": "Blog_Sample\\Views\\Admin\\Blog.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-07T12:18:52.961Z",
               "EditorCaption": ""
@@ -645,8 +615,7 @@
               "RelativeToolTip": "Blog_Sample\\Views\\Shared\\_AdminSharedPartialDown.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T19:37:02.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T19:37:02.432Z"
             },
             {
               "$type": "Document",
@@ -658,8 +627,7 @@
               "RelativeToolTip": "Blog_Sample\\Views\\Shared\\_AdminSharedPartialUp.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T12:28:03.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T12:28:03.072Z"
             },
             {
               "$type": "Document",
@@ -671,8 +639,7 @@
               "RelativeToolTip": "DataLayer\\Model\\Portfolio.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T19:38:48.373Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-09T19:38:48.373Z"
             }
           ]
         }

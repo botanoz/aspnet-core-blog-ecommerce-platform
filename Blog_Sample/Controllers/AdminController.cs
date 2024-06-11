@@ -3,6 +3,7 @@ using BusinessLayer.Services.UnitOfWork;
 using BusinessLayer.Services.ViewModel;
 using DataLayer.Model;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -15,6 +16,7 @@ namespace Blog_Sample.Controllers
     public class AdminController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
+        private readonly IWebHostEnvironment _webHostEnvironment;
         private readonly IUnitOfWork _unitOfWork;
         private readonly IOrderService _orderService;
         private readonly IBlogService _blogService;
@@ -22,13 +24,14 @@ namespace Blog_Sample.Controllers
 
         public AdminController(
             UserManager<ApplicationUser> userManager,
-            IUnitOfWork unitOfWork,IOrderService orderService, IBlogService blogService, IPortfolioService portfolioService)
+            IUnitOfWork unitOfWork,IOrderService orderService, IBlogService blogService, IPortfolioService portfolioService, IWebHostEnvironment webHostEnvironment)
         {
             _userManager = userManager;
             _unitOfWork = unitOfWork;
             _orderService = orderService;
             _blogService = blogService;
             _portfolioService = portfolioService;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         public async Task<IActionResult> Index()
@@ -105,6 +108,7 @@ namespace Blog_Sample.Controllers
 
             return View(viewModel);
         }
+
         [HttpPost]
         public async Task<IActionResult> EditBlog(BlogViewModel model)
         {
@@ -118,17 +122,19 @@ namespace Blog_Sample.Controllers
 
                 if (model.Thumbnail != null)
                 {
+                    var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images/blogs");
+                    Directory.CreateDirectory(uploadsFolder); 
                     var fileName = Path.GetFileNameWithoutExtension(model.Thumbnail.FileName);
                     var extension = Path.GetExtension(model.Thumbnail.FileName);
                     var newFileName = $"{fileName}_{DateTime.Now:yyyyMMddHHmmss}{extension}";
-                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images/blogs", newFileName);
+                    var filePath = Path.Combine(uploadsFolder, newFileName);
 
-                    using (var stream = new FileStream(path, FileMode.Create))
+                    using (var stream = new FileStream(filePath, FileMode.Create))
                     {
                         await model.Thumbnail.CopyToAsync(stream);
                     }
 
-                    blog.ThumbnailPath = $"/images/blogs/{newFileName}";
+                    blog.ThumbnailPath = $"~/images/blogs/{newFileName}";
                 }
 
                 blog.Date = model.Date;
@@ -142,8 +148,9 @@ namespace Blog_Sample.Controllers
             }
             return View(model);
         }
+    
 
-        [HttpPost]
+    [HttpPost]
         public async Task<IActionResult> SaveSettings(IEnumerable<Setting> settings)
         {
             if (ModelState.IsValid)
