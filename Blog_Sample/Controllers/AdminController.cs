@@ -112,7 +112,7 @@ namespace Blog_Sample.Controllers
         [HttpPost]
         public async Task<IActionResult> EditBlog(BlogViewModel model)
         {
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 var blog = await _unitOfWork.Blogs.GetByIdAsync(model.Id);
                 if (blog == null)
@@ -148,9 +148,142 @@ namespace Blog_Sample.Controllers
             }
             return View(model);
         }
-    
+        public async Task<IActionResult> EditShop(int id)
+        {
+            var product = await _unitOfWork.Products.GetByIdAsync(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
 
-    [HttpPost]
+            var viewModel = new ProductViewModel
+            {
+                Id = product.Id,
+                Name = product.Name,
+                Description = product.Description,
+                Price = product.Price,
+                ImageUrl = product.ImageUrl
+            };
+
+            return View(viewModel);
+        }
+        [HttpPost]
+        public async Task<IActionResult> EditShop(ProductViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                var product = await _unitOfWork.Products.GetByIdAsync(model.Id);
+                if (product == null)
+                {
+                    return NotFound();
+                }
+
+                if (model.Thumbnail != null)
+                {
+                    var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images/products");
+                    Directory.CreateDirectory(uploadsFolder);
+                    var fileName = Path.GetFileNameWithoutExtension(model.Thumbnail.FileName);
+                    var extension = Path.GetExtension(model.Thumbnail.FileName);
+                    var newFileName = $"{fileName}_{DateTime.Now:yyyyMMddHHmmss}{extension}";
+                    var filePath = Path.Combine(uploadsFolder, newFileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await model.Thumbnail.CopyToAsync(stream);
+                    }
+
+                    product.ImageUrl = $"/images/products/{newFileName}";
+                }
+
+                product.Name = model.Name;
+                product.Description = model.Description;
+                product.Price = model.Price;
+
+                _unitOfWork.Products.Update(product);
+                await _unitOfWork.CompleteAsync();
+                return RedirectToAction(nameof(Shop));
+            }
+
+            // ModelState geçersizse hataları logla
+            var errors = ModelState.Values.SelectMany(v => v.Errors);
+            foreach (var error in errors)
+            {
+                Console.WriteLine(error.ErrorMessage);
+            }
+
+            return View(model);
+        }
+        public async Task<IActionResult> EditPortfolio(int id)
+        {
+            var portfolio = await _unitOfWork.Portfolios.GetByIdAsync(id);
+            if (portfolio == null)
+            {
+                return NotFound();
+            }
+
+            var viewModel = new PortfolioViewModel
+            {
+                Id = portfolio.Id,
+                Client = portfolio.Client,
+                ProjectUrl = portfolio.ProjectUrl,
+                Title = portfolio.Title,
+                Description = portfolio.Description,
+                UserId = portfolio.UserId,
+                ThumbnailPath = portfolio.ProjectUrl
+            };
+
+            return View(viewModel);
+        }
+        [HttpPost]
+        public async Task<IActionResult> EditPortfolio(PortfolioViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+                var portfolio = await _unitOfWork.Portfolios.GetByIdAsync(model.Id);
+                if (portfolio == null)
+                {
+                    return NotFound();
+                }
+
+                if (model.Thumbnail != null)
+                {
+                    var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images/portfolios");
+                    Directory.CreateDirectory(uploadsFolder);
+                    var fileName = Path.GetFileNameWithoutExtension(model.Thumbnail.FileName);
+                    var extension = Path.GetExtension(model.Thumbnail.FileName);
+                    var newFileName = $"{fileName}_{DateTime.Now:yyyyMMddHHmmss}{extension}";
+                    var filePath = Path.Combine(uploadsFolder, newFileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await model.Thumbnail.CopyToAsync(stream);
+                    }
+
+                    portfolio.ProjectUrl = $"/images/portfolios/{newFileName}";
+                }
+
+                portfolio.Client = model.Client;
+                portfolio.ProjectUrl = model.ProjectUrl;
+                portfolio.Title = model.Title;
+                portfolio.Description = model.Description;
+                portfolio.UserId = model.UserId;
+
+                _unitOfWork.Portfolios.Update(portfolio);
+                await _unitOfWork.CompleteAsync();
+                return RedirectToAction(nameof(Portfolio));
+            }
+
+            // ModelState geçersizse hataları logla
+            var errors = ModelState.Values.SelectMany(v => v.Errors);
+            foreach (var error in errors)
+            {
+                Console.WriteLine(error.ErrorMessage);
+            }
+
+            return View(model);
+        }
+
+        [HttpPost]
         public async Task<IActionResult> SaveSettings(IEnumerable<Setting> settings)
         {
             if (ModelState.IsValid)

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qJC014H18N5oNXI3Ua9gPPTTjy90C8cbKdtD9F1yalw=",
+  "Hash": "WU4kJQ3exIDQLsDK7nlnj4ybw7m6DJh+yv8FDZFUE68=",
   "Source": "Blog_Sample",
   "BasePath": "_content/Blog_Sample",
   "Mode": "Default",
@@ -2050,6 +2050,25 @@
       "OriginalItemSpec": "wwwroot\\images\\Bloggrid\\Bloggrid_8@2x.jpg"
     },
     {
+      "Identity": "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\wwwroot\\images\\blogs\\profile-img1_20240627144136.jpg",
+      "SourceId": "Blog_Sample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\wwwroot\\",
+      "BasePath": "_content/Blog_Sample",
+      "RelativePath": "images/blogs/profile-img1_20240627144136.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\blogs\\profile-img1_20240627144136.jpg"
+    },
+    {
       "Identity": "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\wwwroot\\images\\Blogstandard\\Blogstandard_.jpg",
       "SourceId": "Blog_Sample",
       "SourceType": "Discovered",
@@ -3359,6 +3378,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Poprtfoli-Standardlist\\Prtfoliolist_3@2x.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\wwwroot\\images\\products\\profile-img1_20240627151601.jpg",
+      "SourceId": "Blog_Sample",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\wwwroot\\",
+      "BasePath": "_content/Blog_Sample",
+      "RelativePath": "images/products/profile-img1_20240627151601.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\profile-img1_20240627151601.jpg"
     },
     {
       "Identity": "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\wwwroot\\images\\Project_1.jpg",

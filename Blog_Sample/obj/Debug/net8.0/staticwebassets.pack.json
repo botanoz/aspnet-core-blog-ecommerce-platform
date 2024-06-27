@@ -797,6 +797,10 @@
       "PackagePath": "staticwebassets\\images\\Team_3_Copy_2@2x.jpg"
     },
     {
+      "Id": "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\wwwroot\\images\\blogs\\profile-img1_20240627144136.jpg",
+      "PackagePath": "staticwebassets\\images\\blogs\\profile-img1_20240627144136.jpg"
+    },
+    {
       "Id": "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\wwwroot\\images\\client_1.png",
       "PackagePath": "staticwebassets\\images\\client_1.png"
     },
@@ -859,6 +863,10 @@
     {
       "Id": "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\wwwroot\\images\\loader.gif",
       "PackagePath": "staticwebassets\\images\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\wwwroot\\images\\products\\profile-img1_20240627151601.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\profile-img1_20240627151601.jpg"
     },
     {
       "Id": "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\wwwroot\\images\\search-white.svg",

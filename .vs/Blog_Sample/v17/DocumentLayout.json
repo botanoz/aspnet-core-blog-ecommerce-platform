@@ -3,32 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\views\\admin\\editblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\views\\admin\\editblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6762C53F-81EE-4658-9939-9359E7DFA6D0}|BusinessLayer\\BusinessLayer.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\businesslayer\\services\\viewmodel\\blogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6762C53F-81EE-4658-9939-9359E7DFA6D0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\viewmodel\\blogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|c:\\users\\botan\\onedrive\\masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|c:\\users\\botan\\onedrive\\masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\views\\admin\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\views\\admin\\blog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|c:\\users\\botan\\onedrive\\masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\views\\admin\\editportfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\views\\admin\\editportfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\views\\admin\\portfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\views\\admin\\portfolio.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|c:\\users\\botan\\onedrive\\masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\views\\admin\\editshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\views\\admin\\editshop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\views\\admin\\editblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\views\\admin\\editblog.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\views\\admin\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\views\\admin\\shop.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6762C53F-81EE-4658-9939-9359E7DFA6D0}|BusinessLayer\\BusinessLayer.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\businesslayer\\services\\viewmodel\\listviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6762C53F-81EE-4658-9939-9359E7DFA6D0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\viewmodel\\listviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\views\\portfolio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\views\\portfolio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6762C53F-81EE-4658-9939-9359E7DFA6D0}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\botan\\onedrive\\masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\businesslayer\\services\\viewmodel\\portfolioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6762C53F-81EE-4658-9939-9359E7DFA6D0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\viewmodel\\portfolioviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99045006-ABBD-404D-B6A4-CE3548F54B3D}|DataLayer\\DataLayer.csproj|c:\\users\\botan\\onedrive\\masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\datalayer\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99045006-ABBD-404D-B6A4-CE3548F54B3D}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6762C53F-81EE-4658-9939-9359E7DFA6D0}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\botan\\onedrive\\masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\businesslayer\\services\\viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6762C53F-81EE-4658-9939-9359E7DFA6D0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\viewmodel\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6762C53F-81EE-4658-9939-9359E7DFA6D0}|BusinessLayer\\BusinessLayer.csproj|c:\\users\\botan\\onedrive\\masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\businesslayer\\services\\viewmodel\\blogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6762C53F-81EE-4658-9939-9359E7DFA6D0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\viewmodel\\blogviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|c:\\users\\botan\\onedrive\\masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6762C53F-81EE-4658-9939-9359E7DFA6D0}|BusinessLayer\\BusinessLayer.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\businesslayer\\services\\sipecificservices\\class\\portfolioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,18 +65,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6762C53F-81EE-4658-9939-9359E7DFA6D0}|BusinessLayer\\BusinessLayer.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\businesslayer\\services\\sipecificservices\\interface\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6762C53F-81EE-4658-9939-9359E7DFA6D0}|BusinessLayer\\BusinessLayer.csproj|solutionrelative:businesslayer\\services\\sipecificservices\\interface\\iblogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99045006-ABBD-404D-B6A4-CE3548F54B3D}|DataLayer\\DataLayer.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\datalayer\\model\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99045006-ABBD-404D-B6A4-CE3548F54B3D}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\model\\portfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\views\\shared\\_adminsharedpartialdown.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\views\\shared\\_adminsharedpartialdown.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\views\\shared\\_adminsharedpartialup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\views\\shared\\_adminsharedpartialup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\wwwroot\\dist\\js\\pages\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\wwwroot\\dist\\js\\pages\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\blog_sample\\views\\portfolio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{79040AE9-C9B7-4EF1-9269-2DE28AC932F2}|Blog_Sample\\Blog_Sample.csproj|solutionrelative:blog_sample\\views\\portfolio\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6762C53F-81EE-4658-9939-9359E7DFA6D0}|BusinessLayer\\BusinessLayer.csproj|C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\businesslayer\\services\\sipecificservices\\class\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -158,7 +162,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -166,34 +170,47 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "Blog_Sample\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "Blog_Sample\\Controllers\\AdminController.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAkwIoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T10:10:38.741Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "EditPortfolio.cshtml",
+              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\EditPortfolio.cshtml",
+              "RelativeDocumentMoniker": "Blog_Sample\\Views\\Admin\\EditPortfolio.cshtml",
+              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\EditPortfolio.cshtml",
+              "RelativeToolTip": "Blog_Sample\\Views\\Admin\\EditPortfolio.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T13:56:27.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditBlog.cshtml",
+              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\EditBlog.cshtml",
+              "RelativeDocumentMoniker": "Blog_Sample\\Views\\Admin\\EditBlog.cshtml",
+              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\EditBlog.cshtml",
+              "RelativeToolTip": "Blog_Sample\\Views\\Admin\\EditBlog.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-10T15:50:52.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "BlogViewModel.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\BusinessLayer\\Services\\ViewModel\\BlogViewModel.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Services\\ViewModel\\BlogViewModel.cs",
               "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\BusinessLayer\\Services\\ViewModel\\BlogViewModel.cs",
               "RelativeToolTip": "BusinessLayer\\Services\\ViewModel\\BlogViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-10T16:07:07.52Z",
               "EditorCaption": ""
@@ -201,19 +218,123 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EditBlog.cshtml",
-              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\EditBlog.cshtml",
-              "RelativeDocumentMoniker": "Blog_Sample\\Views\\Admin\\EditBlog.cshtml",
-              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\EditBlog.cshtml",
-              "RelativeToolTip": "Blog_Sample\\Views\\Admin\\EditBlog.cshtml",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAgwA0AAAAaAAAA",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Blog_Sample\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Blog_Sample\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAN0AAAAAAAAAAAAUwPcAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T10:10:38.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Shop.cshtml",
+              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\Shop.cshtml",
+              "RelativeDocumentMoniker": "Blog_Sample\\Views\\Admin\\Shop.cshtml",
+              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\Shop.cshtml",
+              "RelativeToolTip": "Blog_Sample\\Views\\Admin\\Shop.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-10T15:50:52.495Z",
+              "WhenOpened": "2024-06-09T19:05:58.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditShop.cshtml",
+              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\EditShop.cshtml",
+              "RelativeDocumentMoniker": "Blog_Sample\\Views\\Admin\\EditShop.cshtml",
+              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\EditShop.cshtml",
+              "RelativeToolTip": "Blog_Sample\\Views\\Admin\\EditShop.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-27T12:08:28.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Portfolio.cshtml",
+              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\Portfolio.cshtml",
+              "RelativeDocumentMoniker": "Blog_Sample\\Views\\Admin\\Portfolio.cshtml",
+              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\Portfolio.cshtml",
+              "RelativeToolTip": "Blog_Sample\\Views\\Admin\\Portfolio.cshtml",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAqwEsAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-09T19:37:21.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Program.cs",
+              "RelativeDocumentMoniker": "Blog_Sample\\Program.cs",
+              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Program.cs",
+              "RelativeToolTip": "Blog_Sample\\Program.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T11:35:48.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "DataLayer\\Model\\Product.cs",
+              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\Model\\Product.cs",
+              "RelativeToolTip": "DataLayer\\Model\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T11:58:27.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\BusinessLayer\\Services\\ViewModel\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\ViewModel\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\BusinessLayer\\Services\\ViewModel\\ProductViewModel.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\ViewModel\\ProductViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T12:06:34.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Portfolio\\Index.cshtml",
+              "RelativeDocumentMoniker": "Blog_Sample\\Views\\Portfolio\\Index.cshtml",
+              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Portfolio\\Index.cshtml",
+              "RelativeToolTip": "Blog_Sample\\Views\\Portfolio\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T08:54:13.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "PortfolioViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\BusinessLayer\\Services\\ViewModel\\PortfolioViewModel.cs",
+              "RelativeDocumentMoniker": "BusinessLayer\\Services\\ViewModel\\PortfolioViewModel.cs",
+              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\BusinessLayer\\Services\\ViewModel\\PortfolioViewModel.cs",
+              "RelativeToolTip": "BusinessLayer\\Services\\ViewModel\\PortfolioViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-27T13:51:43.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "PortfolioService.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\BusinessLayer\\Services\\SipecificServices\\Class\\PortfolioService.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Services\\SipecificServices\\Class\\PortfolioService.cs",
@@ -225,19 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Portfolio.cshtml",
-              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\Portfolio.cshtml",
-              "RelativeDocumentMoniker": "Blog_Sample\\Views\\Admin\\Portfolio.cshtml",
-              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\Portfolio.cshtml",
-              "RelativeToolTip": "Blog_Sample\\Views\\Admin\\Portfolio.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T19:37:21.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "IPortfolioService.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\BusinessLayer\\Services\\SipecificServices\\Interface\\IPortfolioService.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Services\\SipecificServices\\Interface\\IPortfolioService.cs",
@@ -249,19 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Shop.cshtml",
-              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\Shop.cshtml",
-              "RelativeDocumentMoniker": "Blog_Sample\\Views\\Admin\\Shop.cshtml",
-              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\Shop.cshtml",
-              "RelativeToolTip": "Blog_Sample\\Views\\Admin\\Shop.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAC0AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T19:05:58.335Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "BlogService.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\BusinessLayer\\Services\\SipecificServices\\Class\\BlogService.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Services\\SipecificServices\\Class\\BlogService.cs",
@@ -273,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Blog\\Index.cshtml",
               "RelativeDocumentMoniker": "Blog_Sample\\Views\\Blog\\Index.cshtml",
@@ -285,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "IBlogService.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\BusinessLayer\\Services\\SipecificServices\\Interface\\IBlogService.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Services\\SipecificServices\\Interface\\IBlogService.cs",
@@ -297,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "Blog_Sample\\Views\\Shared\\_AdminLayout.cshtml",
@@ -309,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "ShopController.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Controllers\\ShopController.cs",
               "RelativeDocumentMoniker": "Blog_Sample\\Controllers\\ShopController.cs",
@@ -321,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\Repository\\SpecificRepository\\Interface\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "DataLayer\\Repository\\SpecificRepository\\Interface\\IOrderRepository.cs",
@@ -333,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\BusinessLayer\\Services\\SipecificServices\\Class\\OrderService.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Services\\SipecificServices\\Class\\OrderService.cs",
@@ -345,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\BusinessLayer\\Services\\SipecificServices\\Interface\\IOrderService.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Services\\SipecificServices\\Interface\\IOrderService.cs",
@@ -357,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "Blog_Sample\\Views\\Admin\\Index.cshtml",
@@ -369,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "dashboard.js",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\wwwroot\\dist\\js\\pages\\dashboard.js",
               "RelativeDocumentMoniker": "Blog_Sample\\wwwroot\\dist\\js\\pages\\dashboard.js",
@@ -381,19 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Portfolio\\Index.cshtml",
-              "RelativeDocumentMoniker": "Blog_Sample\\Views\\Portfolio\\Index.cshtml",
-              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Portfolio\\Index.cshtml",
-              "RelativeToolTip": "Blog_Sample\\Views\\Portfolio\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T08:54:13.901Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\Repository\\SpecificRepository\\Class\\OrderRepository.cs",
               "RelativeDocumentMoniker": "DataLayer\\Repository\\SpecificRepository\\Class\\OrderRepository.cs",
@@ -405,7 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "20240607112933_BlogSampleDbFourMig.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\Migrations\\20240607112933_BlogSampleDbFourMig.cs",
               "RelativeDocumentMoniker": "DataLayer\\Migrations\\20240607112933_BlogSampleDbFourMig.cs",
@@ -417,7 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\Model\\Order.cs",
               "RelativeDocumentMoniker": "DataLayer\\Model\\Order.cs",
@@ -429,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "BlogRepository.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\Repository\\SpecificRepository\\Class\\BlogRepository.cs",
               "RelativeDocumentMoniker": "DataLayer\\Repository\\SpecificRepository\\Class\\BlogRepository.cs",
@@ -441,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\Entity\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "DataLayer\\Entity\\ApplicationDbContext.cs",
@@ -453,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "IAboutRepository.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\Repository\\SpecificRepository\\Interface\\IAboutRepository.cs",
               "RelativeDocumentMoniker": "DataLayer\\Repository\\SpecificRepository\\Interface\\IAboutRepository.cs",
@@ -465,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Blog_Sample\\Controllers\\HomeController.cs",
@@ -477,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "AboutRepository.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\Repository\\SpecificRepository\\Class\\AboutRepository.cs",
               "RelativeDocumentMoniker": "DataLayer\\Repository\\SpecificRepository\\Class\\AboutRepository.cs",
@@ -489,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "AboutViewModel.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\BusinessLayer\\Services\\ViewModel\\AboutViewModel.cs",
               "RelativeDocumentMoniker": "BusinessLayer\\Services\\ViewModel\\AboutViewModel.cs",
@@ -501,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Shop\\Index.cshtml",
               "RelativeDocumentMoniker": "Blog_Sample\\Views\\Shop\\Index.cshtml",
@@ -513,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "20240606115454_BlogSampleDbThirdMig.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\Migrations\\20240606115454_BlogSampleDbThirdMig.cs",
               "RelativeDocumentMoniker": "DataLayer\\Migrations\\20240606115454_BlogSampleDbThirdMig.cs",
@@ -525,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "IBlogRepository.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\Repository\\SpecificRepository\\Interface\\IBlogRepository.cs",
               "RelativeDocumentMoniker": "DataLayer\\Repository\\SpecificRepository\\Interface\\IBlogRepository.cs",
@@ -537,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "20240606114440_BlogSampleDbSecondMig.cs",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\Migrations\\20240606114440_BlogSampleDbSecondMig.cs",
               "RelativeDocumentMoniker": "DataLayer\\Migrations\\20240606114440_BlogSampleDbSecondMig.cs",
@@ -549,7 +634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Blog_Sample\\Views\\Home\\About.cshtml",
@@ -558,88 +643,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-06-06T10:24:28.373Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "3173bec7-25c2-44c1-a4e1-2b516f323f57",
-        "Display": 1,
-        "X": 447,
-        "Y": 202,
-        "Width": 1108,
-        "Height": 749,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ListViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\BusinessLayer\\Services\\ViewModel\\ListViewModel.cs",
-              "RelativeDocumentMoniker": "BusinessLayer\\Services\\ViewModel\\ListViewModel.cs",
-              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\BusinessLayer\\Services\\ViewModel\\ListViewModel.cs",
-              "RelativeToolTip": "BusinessLayer\\Services\\ViewModel\\ListViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T14:02:16.109Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Blog.cshtml",
-              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\Blog.cshtml",
-              "RelativeDocumentMoniker": "Blog_Sample\\Views\\Admin\\Blog.cshtml",
-              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Admin\\Blog.cshtml",
-              "RelativeToolTip": "Blog_Sample\\Views\\Admin\\Blog.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T12:18:52.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_AdminSharedPartialDown.cshtml",
-              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Shared\\_AdminSharedPartialDown.cshtml",
-              "RelativeDocumentMoniker": "Blog_Sample\\Views\\Shared\\_AdminSharedPartialDown.cshtml",
-              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Shared\\_AdminSharedPartialDown.cshtml",
-              "RelativeToolTip": "Blog_Sample\\Views\\Shared\\_AdminSharedPartialDown.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-09T19:37:02.432Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "_AdminSharedPartialUp.cshtml",
-              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Shared\\_AdminSharedPartialUp.cshtml",
-              "RelativeDocumentMoniker": "Blog_Sample\\Views\\Shared\\_AdminSharedPartialUp.cshtml",
-              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\Views\\Shared\\_AdminSharedPartialUp.cshtml",
-              "RelativeToolTip": "Blog_Sample\\Views\\Shared\\_AdminSharedPartialUp.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T12:28:03.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Portfolio.cs",
-              "DocumentMoniker": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\Model\\Portfolio.cs",
-              "RelativeDocumentMoniker": "DataLayer\\Model\\Portfolio.cs",
-              "ToolTip": "C:\\Users\\botan\\OneDrive\\Masa\u00FCst\u00FC\\bloggithub\\aspnet-core-blog-ecommerce-platform\\DataLayer\\Model\\Portfolio.cs",
-              "RelativeToolTip": "DataLayer\\Model\\Portfolio.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T19:38:48.373Z"
             }
           ]
         }

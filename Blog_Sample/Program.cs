@@ -67,6 +67,7 @@ namespace Blog_Sample
             builder.Services.AddScoped<IProductService, ProductService>();
             builder.Services.AddScoped<ISettingService, SettingService>();
             builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddSingleton<IWebHostEnvironment>(builder.Environment);
 
             // Add controllers with views
             builder.Services.AddControllersWithViews();

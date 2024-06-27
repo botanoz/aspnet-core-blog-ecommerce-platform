@@ -42,6 +42,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdEJsb2cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Admin/EditPortfolio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFBvcnRmb2xpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Admin/EditShop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFNob3AuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/botan/OneDrive/Masaüstü/bloggithub/aspnet-core-blog-ecommerce-platform/Blog_Sample/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

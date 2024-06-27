@@ -1,3 +1,4 @@
+
 # ASP.NET Core Blog and E-Commerce Platform
 
 This project is a sample blog and e-commerce application developed using ASP.NET Core and Entity Framework Core. It includes features for user management, blogs, portfolios, carts, orders, and more. This project is under active development.
@@ -50,6 +51,26 @@ This project is a sample blog and e-commerce application developed using ASP.NET
 - **Shopping Cart**: Add products to the cart and manage them.
 - **Order Management**: Place orders and track them.
 - **Admin Dashboard**: Manage users, settings, and other administrative tasks.
+
+### Screenshots
+
+#### Main Page
+![Main Page](screenshot/MainPage.PNG)
+
+#### Portfolios Page
+![Portfolios Page](screenshot/PortfoliosPage.PNG)
+
+#### Login Page
+![Login Page](screenshot/LoginPage.PNG)
+
+#### Admin Main Page
+![Admin Main Page](screenshot/AdminMainPage.PNG)
+
+#### Admin Products
+![Admin Products](screenshot/AdminProducts.PNG)
+
+#### Admin Settings Page
+![Admin Settings Page](screenshot/AdminSettingsPage.PNG)
 
 ### Project Structure
 
@@ -120,6 +141,26 @@ Bu proje, ASP.NET Core ve Entity Framework Core kullanılarak geliştirilmiş ö
 - **Alışveriş Sepeti**: Ürünleri sepete ekleyin ve yönetin.
 - **Sipariş Yönetimi**: Sipariş verin ve takip edin.
 - **Yönetici Paneli**: Kullanıcıları, ayarları ve diğer yönetim görevlerini yönetin.
+
+### Ekran Görüntüleri
+
+#### Ana Sayfa
+![Ana Sayfa](screenshot/MainPage.PNG)
+
+#### Portföyler Sayfası
+![Portföyler Sayfası](screenshot/PortfoliosPage.PNG)
+
+#### Giriş Sayfası
+![Giriş Sayfası](screenshot/LoginPage.PNG)
+
+#### Yönetici Ana Sayfası
+![Yönetici Ana Sayfası](screenshot/AdminMainPage.PNG)
+
+#### Yönetici Ürünler
+![Yönetici Ürünler](screenshot/AdminProducts.PNG)
+
+#### Yönetici Ayarları Sayfası
+![Yönetici Ayarları Sayfası](screenshot/AdminSettingsPage.PNG)
 
 ### Proje Yapısı
 
