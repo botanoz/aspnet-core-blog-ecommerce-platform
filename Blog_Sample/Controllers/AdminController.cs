@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Services.SipecificServices.Interface;
+using BusinessLayer.Services.SystemServices;
 using BusinessLayer.Services.UnitOfWork;
 using BusinessLayer.Services.ViewModel;
 using DataLayer.Model;
@@ -6,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -78,14 +80,43 @@ namespace Blog_Sample.Controllers
 
         public async Task<IActionResult> About()
         {
-            var abouts = await _unitOfWork.Abouts.GetAllAsync();
-            return View(abouts);
+            var about = await _unitOfWork.Abouts.GetByIdAsync(1);
+            
+            return View(about);
+        }
+        [HttpPost]
+        public async Task<IActionResult> AboutEdit(About aboutPage)
+        {
+            aboutPage.UpdatedDate = DateTime.Now;
+            aboutPage.Id = 1;
+            aboutPage.Name = "About";
+            
+           
+             _unitOfWork.Abouts.Update(aboutPage);
+                
+                await _unitOfWork.CompleteAsync();
+                return RedirectToAction(nameof(About));
+  
         }
 
         public async Task<IActionResult> User()
         {
             var users = await _unitOfWork.Users.GetAllAsync();
             return View(users);
+        }
+        
+        public async Task<IActionResult> DeleteBlog(int id)
+        {
+            var blogRepository = _unitOfWork.GetRepository<Blog>();
+            var blog = await blogRepository.GetByIdAsync(id);
+            if (blog == null)
+            {
+                return NotFound();
+            }
+
+            blogRepository.Remove(blog);
+            await _unitOfWork.CompleteAsync();
+            return RedirectToAction(nameof(Blog));
         }
 
         public async Task<IActionResult> EditBlog(int id)
@@ -112,8 +143,7 @@ namespace Blog_Sample.Controllers
         [HttpPost]
         public async Task<IActionResult> EditBlog(BlogViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
+
                 var blog = await _unitOfWork.Blogs.GetByIdAsync(model.Id);
                 if (blog == null)
                 {
@@ -122,19 +152,10 @@ namespace Blog_Sample.Controllers
 
                 if (model.Thumbnail != null)
                 {
-                    var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images/blogs");
-                    Directory.CreateDirectory(uploadsFolder); 
-                    var fileName = Path.GetFileNameWithoutExtension(model.Thumbnail.FileName);
-                    var extension = Path.GetExtension(model.Thumbnail.FileName);
-                    var newFileName = $"{fileName}_{DateTime.Now:yyyyMMddHHmmss}{extension}";
-                    var filePath = Path.Combine(uploadsFolder, newFileName);
+                string root = "images/blogs";
+                    var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath,root);
 
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        await model.Thumbnail.CopyToAsync(stream);
-                    }
-
-                    blog.ThumbnailPath = $"~/images/blogs/{newFileName}";
+                    blog.ThumbnailPath = await UploadImage.UploadThumbnailAsync(model.Thumbnail,uploadsFolder,root);
                 }
 
                 blog.Date = model.Date;
@@ -145,8 +166,18 @@ namespace Blog_Sample.Controllers
                 _unitOfWork.Blogs.Update(blog);
                 await _unitOfWork.CompleteAsync();
                 return RedirectToAction(nameof(Blog));
+            
+
+        }
+       
+        public async Task<IActionResult> DeleteProduct(int id)
+        {
+            var result = await DeleteMethods.DeleteEntityAsync<Product>(id, _unitOfWork);
+            if (!result)
+            {
+                return NotFound();
             }
-            return View(model);
+            return RedirectToAction(nameof(Shop));
         }
         public async Task<IActionResult> EditShop(int id)
         {
@@ -170,8 +201,7 @@ namespace Blog_Sample.Controllers
         [HttpPost]
         public async Task<IActionResult> EditShop(ProductViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
+
                 var product = await _unitOfWork.Products.GetByIdAsync(model.Id);
                 if (product == null)
                 {
@@ -180,19 +210,10 @@ namespace Blog_Sample.Controllers
 
                 if (model.Thumbnail != null)
                 {
-                    var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images/products");
-                    Directory.CreateDirectory(uploadsFolder);
-                    var fileName = Path.GetFileNameWithoutExtension(model.Thumbnail.FileName);
-                    var extension = Path.GetExtension(model.Thumbnail.FileName);
-                    var newFileName = $"{fileName}_{DateTime.Now:yyyyMMddHHmmss}{extension}";
-                    var filePath = Path.Combine(uploadsFolder, newFileName);
+                    string root = "images/products";
+                    var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath,root);
 
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        await model.Thumbnail.CopyToAsync(stream);
-                    }
-
-                    product.ImageUrl = $"/images/products/{newFileName}";
+                    product.ImageUrl = await UploadImage.UploadThumbnailAsync(model.Thumbnail,uploadsFolder,root);
                 }
 
                 product.Name = model.Name;
@@ -201,17 +222,18 @@ namespace Blog_Sample.Controllers
 
                 _unitOfWork.Products.Update(product);
                 await _unitOfWork.CompleteAsync();
-                return RedirectToAction(nameof(Shop));
-            }
+                return RedirectToAction(nameof(Shop));           
 
-            // ModelState geçersizse hataları logla
-            var errors = ModelState.Values.SelectMany(v => v.Errors);
-            foreach (var error in errors)
+        }
+       
+        public async Task<IActionResult> DeletePortfolio(int id)
+        {
+            var result = await DeleteMethods.DeleteEntityAsync<Portfolio>(id, _unitOfWork);
+            if (!result)
             {
-                Console.WriteLine(error.ErrorMessage);
+                return NotFound();
             }
-
-            return View(model);
+            return RedirectToAction(nameof(Portfolio));
         }
         public async Task<IActionResult> EditPortfolio(int id)
         {
@@ -237,8 +259,7 @@ namespace Blog_Sample.Controllers
         [HttpPost]
         public async Task<IActionResult> EditPortfolio(PortfolioViewModel model)
         {
-            if (!ModelState.IsValid)
-            {
+
                 var portfolio = await _unitOfWork.Portfolios.GetByIdAsync(model.Id);
                 if (portfolio == null)
                 {
@@ -247,19 +268,9 @@ namespace Blog_Sample.Controllers
 
                 if (model.Thumbnail != null)
                 {
-                    var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images/portfolios");
-                    Directory.CreateDirectory(uploadsFolder);
-                    var fileName = Path.GetFileNameWithoutExtension(model.Thumbnail.FileName);
-                    var extension = Path.GetExtension(model.Thumbnail.FileName);
-                    var newFileName = $"{fileName}_{DateTime.Now:yyyyMMddHHmmss}{extension}";
-                    var filePath = Path.Combine(uploadsFolder, newFileName);
-
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        await model.Thumbnail.CopyToAsync(stream);
-                    }
-
-                    portfolio.ProjectUrl = $"/images/portfolios/{newFileName}";
+                string root = "images/portfolios";
+                    var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath,root);
+                    portfolio.ProjectUrl = await UploadImage.UploadThumbnailAsync(model.Thumbnail, uploadsFolder,root);
                 }
 
                 portfolio.Client = model.Client;
@@ -271,16 +282,8 @@ namespace Blog_Sample.Controllers
                 _unitOfWork.Portfolios.Update(portfolio);
                 await _unitOfWork.CompleteAsync();
                 return RedirectToAction(nameof(Portfolio));
-            }
 
-            // ModelState geçersizse hataları logla
-            var errors = ModelState.Values.SelectMany(v => v.Errors);
-            foreach (var error in errors)
-            {
-                Console.WriteLine(error.ErrorMessage);
-            }
 
-            return View(model);
         }
 
         [HttpPost]

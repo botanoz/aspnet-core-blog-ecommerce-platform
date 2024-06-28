@@ -1,28 +1,32 @@
-﻿
+﻿@model DataLayer.Model.About
 @{
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
-    ViewData["Title"] = "About";
+    ViewData["Title"] = "About Editör";
 }
-<div class="card card-primary">
-    <div class="card-header">
-        <h3 class="card-title"><i class="fas fa-edit"></i> About Page Details</h3>
+
+<div class="container-fluid p-0 m-1" style="height: calc(60vh - 100px);">
+    <div class="row no-gutters justify-content-center h-100">
+        <div class="col-12 p-0 h-100">
+            <form asp-action="AboutEdit" asp-controller="Admin" method="post" class="h-100 d-flex flex-column">
+                <div class="form-group flex-grow-1 m-0">
+                    <textarea id="Description" name="Description" class="form-control h-100">@Html.Raw(Model.Description)</textarea>
+                </div>
+                <div class="form-group m-0">
+                    <button type="submit" class="btn btn-primary btn-block">Kaydet</button>
+                </div>
+            </form>
+        </div>
     </div>
-    <form asp-action="Edit" method="post">
-        <div class="card-body">
-            <div class="form-group">
-                <label  class="control-label"></label>
-                <input  class="form-control" placeholder="Enter title" />
-                <span  class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label class="control-label"></label>
-                <textarea  class="form-control" rows="10" placeholder="Enter content"></textarea>
-                <span  class="text-danger"></span>
-            </div>
-        </div>
-        <div class="card-footer">
-            <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Save Changes</button>
-            <a class="btn btn-secondary"><i class="fas fa-times"></i> Cancel</a>
-        </div>
-    </form>
 </div>
+
+@section Scripts {
+
+    <script>
+        CKEDITOR.replace('Description', {
+            height: 'calc(60vh - 100px)', 
+            removePlugins: 'resize,maximize',
+            resize_enabled: false,
+            removeButtons: 'Maximize,ShowBlocks'
+        });
+    </script>
+}

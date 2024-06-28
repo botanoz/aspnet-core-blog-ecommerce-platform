@@ -24,5 +24,6 @@ public interface IUnitOfWork : IDisposable
     IProductRepository Products { get; }
     ISettingRepository Settings { get; }
     IUserRepository Users { get; }
+    IGenericRepository<T> GetRepository<T>() where T : class;
     Task<int> CompleteAsync();
 }

@@ -865,6 +865,14 @@
       "PackagePath": "staticwebassets\\images\\loader.gif"
     },
     {
+      "Id": "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\wwwroot\\images\\products\\bklfogo_20240628144528.png",
+      "PackagePath": "staticwebassets\\images\\products\\bklfogo_20240628144528.png"
+    },
+    {
+      "Id": "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\wwwroot\\images\\products\\categories_20240628145128.png",
+      "PackagePath": "staticwebassets\\images\\products\\categories_20240628145128.png"
+    },
+    {
       "Id": "C:\\Users\\botan\\OneDrive\\Masaüstü\\bloggithub\\aspnet-core-blog-ecommerce-platform\\Blog_Sample\\wwwroot\\images\\products\\profile-img1_20240627151601.jpg",
       "PackagePath": "staticwebassets\\images\\products\\profile-img1_20240627151601.jpg"
     },

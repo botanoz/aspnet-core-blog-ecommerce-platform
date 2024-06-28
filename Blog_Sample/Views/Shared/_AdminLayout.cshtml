@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="~/plugins/daterangepicker/daterangepicker.css">
     <!-- summernote -->
     <link rel="stylesheet" href="~/plugins/summernote/summernote-bs4.min.css">
+    <script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
     <div class="wrapper">
@@ -240,6 +241,7 @@
         </aside>
         <!-- /.control-sidebar -->
     </div>
+    @RenderSection("Scripts", required: false)
     <!-- ./wrapper -->
     <!-- jQuery -->
     <script src="~/plugins/jquery/jquery.min.js"></script>

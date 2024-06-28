@@ -12,7 +12,7 @@ namespace BusinessLayer.Services.UnitOfWork;
 public class UnitOfWork : IUnitOfWork
 {
     private readonly ApplicationDbContext _context;
-
+    private readonly Dictionary<Type, object> _repositories;
     /// <summary>
     /// Initializes a new instance of the <see cref="UnitOfWork"/> class.
     /// </summary>
@@ -33,6 +33,7 @@ public class UnitOfWork : IUnitOfWork
         Products = new ProductRepository(_context);
         Settings = new SettingRepository(_context);
         Users = new UserRepository(_context);
+        _repositories = new Dictionary<Type, object>();
     }
 
     public IAboutRepository Abouts { get; private set; }
@@ -49,6 +50,7 @@ public class UnitOfWork : IUnitOfWork
     public ISettingRepository Settings { get; private set; }
     public IUserRepository Users { get; private set; }
 
+
     /// <summary>
     /// Saves all changes made in this context to the database.
     /// </summary>
@@ -64,5 +66,17 @@ public class UnitOfWork : IUnitOfWork
     public void Dispose()
     {
         _context.Dispose();
+    }
+
+    public IGenericRepository<T> GetRepository<T>() where T : class
+    {
+        if (_repositories.ContainsKey(typeof(T)))
+        {
+            return (IGenericRepository<T>)_repositories[typeof(T)];
+        }
+
+        var repository = new GenericRepository<T>(_context);
+        _repositories[typeof(T)] = repository;
+        return repository;
     }
 }
